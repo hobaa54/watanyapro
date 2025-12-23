@@ -1,0 +1,82 @@
+<div class="all">
+    <div class="container  " dir="rtl">
+        <div class="fuel-page " @fadeUp>
+            <h1 class="typing-title mx-auto fw-bold">تفاصيل الوقود </h1>
+            <p class="text-muted mb-4 text-center">
+                جميع أنواع الوقود متوفرة على مدار الساعة بأعلى معايير الجودة
+            </p>
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <span><i class="fa-solid fa-shield-halved"></i> جودة مضمونة</span>
+                <span><i class="fa-solid fa-clock"></i> خدمة 24 ساعة</span>
+                <span><i class="fa-solid fa-car"></i> مناسب لكل السيارات</span>
+            </div>
+            <div class="fuel-cards">
+                @for (fuel of fuels(); track fuel.name) {
+                <div class="fuel-card">
+                    <i class="fa-solid fa-gas-pump"></i>
+                    <h2>{{ fuel.name }}</h2>
+                    <p>{{ fuel.desc }}</p>
+                </div>
+                }
+            </div>
+            <div class="row p-3 ">
+                <div class="col-lg-8">
+                    <div class="content">
+                        <p class="small text-danger fs-4 mt-3 bi bi-star-fill ">
+                            الأسعار الرسمية طبقًا لتسعير الدولة وقد تخضع للتحديث
+                        </p>
+                        <div class="fuel-info">
+                            <p><i class="fa-solid fa-left-long"></i> يمكنك اختيار البنزين أو الديزل حسب نوع سيارتك
+                                ومتطلباتها. </p>
+                            <p><i class="fa-solid fa-left-long"></i> خدمة العملاء متوفرة دائمًا للرد على أي استفسارات
+                                حول الوقود أو المحطة. </p>
+                            <p class="fw-bold">
+                                للاستفســـارات : {{ station()?.phone }}
+                                <i class="fa-solid fa-phone text-primary"></i>
+                            </p>
+
+
+                        </div>
+
+                    </div>
+                    <button class="btn btn-outline-danger fw-bold" [routerLink]="backLink()">
+                        رجوع
+                    </button>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="container mt-2 ">
+
+                        <div id="carouselExampleAutoplaying9" class="carousel slide mx-auto" data-bs-ride="carousel">
+                            <div class="carousel-inner position-relative">
+                                <div class="carousel-item active">
+                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwhvIeL7MPrzN0AAo2_8WOEBzGHc99MPtJtTphDwLuToCG9KmXI3GooxPazOABuIMnBOTB0bRjBWyyMhgEJvv6e6r7i1bkInjBR_0vJVCoFMkNIK6s4iD9qAbPRzwjNjges3528=s1360-w1360-h1020-rw"
+                                        class="d-block w-100 mx-auto rounded-5" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtJy463v_9cIbmt1zS-Gce-8fEWc8KCY0b8ZQfRrrKSjcecM4QeZttqFP2RK0ac1kLIRCC5e4udtgvYQu2uOVmHBKpjSgR_pgSkN1ggxq2i9RzD2waNxeD5sELAQyZIogLlmvG=s1360-w1360-h1020-rw"
+                                        class="d-block w-100 mx-auto rounded-5" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwWQdTQJ3lsf9WykGIw6cUjzcd5o9yinTjR12U541XT41eaJ6jEYERWGIRPxu8mQW-JTUpNNy76xIhx4RRPNT73-T_YxeG6ezGrk9yuBtRaXJlROHhO1-fXJtNksX8JT9MGX4wf=s1360-w1360-h1020-rw"
+                                        class="d-block w-100 mx-auto rounded-5" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev " type="button"
+                                data-bs-target="#carouselExampleAutoplaying9" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden ">Previous</span>
+                            </button>
+                            <button class="carousel-control-next   " type="button"
+                                data-bs-target="#carouselExampleAutoplaying9" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

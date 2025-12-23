@@ -1,0 +1,140 @@
+/* الصفحة */
+.all {
+    padding: 30px;
+    font-family: 'Tajawal', sans-serif;
+    background: linear-gradient(to bottom, #f4f8ff, #ffffff);
+    min-height: 100vh;
+}
+
+/* العنوان */
+.typing-title {
+    margin-bottom: 10px;
+    direction: rtl;
+    border-right: .15em solid #0d6efd;
+    font-size: 2.5rem;
+    color: #0d6efd;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    width: 0;
+    max-width: 90vw;
+    animation: typing 6s steps(30) infinite, blink .7s infinite;
+    text-align: center;
+}
+
+/* كتابة – انتظار – مسح */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    40% {
+        width: 500px;
+    }
+
+    60% {
+        width: 500px;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: rgb(39, 84, 209);
+    }
+
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* النص */
+.text-muted {
+    font-size: 15px;
+    text-align: center;
+    color: #4b6fae !important;
+}
+
+/* الكروت */
+
+.fuel-card {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bank-logo,
+.service-icon {
+    height: 60px;
+    max-width: 90px;
+    object-fit: contain;
+    margin: 0 auto 10px;
+}
+.fuel-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.fuel-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 18px rgba(13, 110, 253, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.fuel-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(13, 110, 253, 0.25);
+}
+
+/* أيقونات */
+.service-icon {
+    font-size: 2.5rem;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+/* لوجوهات */
+.bank-logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+/* عناوين */
+.fuel-card h2 {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    color: #0d6efd;
+}
+
+/* وصف */
+.fuel-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* معلومات */
+.fuel-info {
+    font-size: 20px;
+    color: #333;
+}
+
+.fuel-info p {
+    margin-bottom: 10px;
+}
+
+.fuel-info i {
+    color: #0d6efd;
+    margin-left: 5px;
+}

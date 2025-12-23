@@ -1,0 +1,89 @@
+<div class="all">
+    <div class="container" dir="rtl">
+
+        <h1 class="typing-title mx-auto fw-bold">خدمات السيارات</h1>
+        <p class="text-muted mb-4">
+            بنقدملك خدمات سريعة وآمنة للحفاظ على سيارتك في أفضل حال
+        </p>
+
+        @if (cars(); as c) {
+
+        @if (c.available) {
+
+        <!-- الكروت -->
+        <div class="fuel-cards">
+            @for (card of c.cards; track card.title) {
+            <div class="fuel-card">
+                <i [class]="card.icon"></i>
+                <h2>{{ card.title }}</h2>
+                <p>{{ card.desc }}</p>
+            </div>
+            }
+        </div>
+
+        <div class="row p-3">
+            <div class="col-lg-8">
+                <div class="content">
+                    <div class="fuel-info">
+                        <h3 class="fw-bold">المميــزات 🛠️:</h3>
+
+                        @for (f of c.features; track f) {
+                        <p><i class="fa-solid fa-left-long"></i> {{ f }}</p>
+                        }
+
+                        <p class="fw-bold mt-3">للاستفسارات:</p>
+                        <p class="fw-bold">
+                            {{ station()?.phone }}
+                            <i class="fa-solid fa-phone text-primary"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <button
+                    class="btn btn-outline-success bi-arrow-bar-left d-flex flex-row-reverse justify-content-center align-items-center fw-bold"
+                    [routerLink]="backLink()">
+                    رجوع
+                </button>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="container mt-2">
+
+                    <div id="carsCarousel" class="carousel slide mx-auto" data-bs-ride="carousel">
+                        <div class="carousel-inner position-relative">
+                            @for (img of c.images; track img; let i = $index) {
+                            <div class="carousel-item" [class.active]="i === 0">
+                                <img [src]="img" class="d-block w-100 mx-auto rounded-5" alt="cars">
+                            </div>
+                            }
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carsCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carsCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        } @else {
+        <p class="text-danger fw-bold">خدمات السيارات غير متاحة في المحطة دي.</p>
+        <button class="btn btn-outline-success fw-bold" [routerLink]="backLink()">رجوع</button>
+        }
+
+        } @else {
+        <p class="text-danger fw-bold">مش لاقي بيانات الخدمة للمحطة دي.</p>
+        <button class="btn btn-outline-success fw-bold" [routerLink]="backLink()">رجوع</button>
+        }
+
+    </div>
+</div>

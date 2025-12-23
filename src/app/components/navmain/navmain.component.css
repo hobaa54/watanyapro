@@ -1,0 +1,15 @@
+.navbar-brand img{
+    width: 90px;
+    cursor: pointer;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.5s ease;
+}

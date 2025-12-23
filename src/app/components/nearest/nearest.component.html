@@ -1,0 +1,62 @@
+       <app-navbar></app-navbar>
+
+<section  class="stations-section py-5 mt-4 " @fadeUp>
+
+        <div class="container text-center">
+            <button
+            
+            class="btn btn-outline-success bi-arrow-bar-left d-flex flex-row-reverse justify-content-center align-items-center fw-bold"
+            routerLink="/home">رجوع</button>
+            <h1 class="text-center text-danger my-4 gradient-text-head bi-car-front">أقرب المحطــات </h1>
+            <h2 class="mb-4 fs-3 fw-bold">(أقــرب محطــات إلـيك اضغـط للتفـاصيـل)</h2>
+            <div class="row g-4">
+                <!-- Station 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="station-card card p-4 text-center shadow rounded-4">
+                        <h3 class="fw-bold">Chillout – <span class="text-danger">New Cairo</span></h3>
+                        <p class="text-muted">2.3 km away</p>
+                        <div class="station-icons mb-3">
+                            <span>⛽</span>
+                            <span>🚗</span>
+                            <span>☕</span>
+                            <span>🛒</span>
+                        </div>
+                        <button class="btn btn-outline-primary mt-2 w-75 mx-aut rounded-5 fw-bold mx-auto"
+                            routerLink="/details">تفاصيـل</button>
+                    </div>
+                </div>
+
+                <!-- Station 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="station-card card p-4 text-center shadow rounded-4">
+                        <h3 class="fw-bold">Chillout – <span class="text-danger">October</span></h3>
+                        <p class="text-muted">6.7 km away</p>
+                        <div class="station-icons mb-3">
+                            <span>⛽</span>
+                            <span>☕</span>
+                            <span>🚗</span>
+                        </div>
+                        <button class="btn btn-outline-primary mt-2 w-75 mx-aut rounded-5 fw-bold mx-auto"
+                            id="Button2">تفاصيـل</button>
+                    </div>
+                </div>
+
+                <!-- Station 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="station-card card p-4 text-center shadow rounded-4">
+                        <h3 class="fw-bold">Chillout – <span class="text-danger">Nasr City</span></h3>
+                        <p class="text-muted">4.1 km away</p>
+                        <div class="station-icons mb-3">
+                            <span>⛽</span>
+                            <span>🚘</span>
+                            <span>🍔</span>
+                            <span>🛒</span>
+                        </div>
+                        <button class="btn btn-outline-primary mt-2 w-75 mx-aut rounded-5 fw-bold mx-auto"
+                            id="Button3">تفاصيـل</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,67 @@
+<div class="all">
+    <div class="container my-4" dir="rtl">
+        <div class="market-page" @fadeUp>
+
+            <h1 class="typing-title mx-auto fw-bold">الماركت</h1>
+            <p class="text-muted mb-4">
+                كل احتياجاتك الأساسية في مكان واحد
+            </p>
+
+            <!-- كروت الماركت -->
+            <div class="fuel-cards">
+                @for (item of marketData()?.cards; track item.name) {
+                <div class="fuel-card">
+                    <img [src]="item.logo" class="market-logo" [alt]="item.name">
+                    <h2>{{ item.name }}</h2>
+                    <p>{{ item.desc }}</p>
+                </div>
+                }
+            </div>
+
+            <!-- معلومات إضافية -->
+            <div class="row p-3 mt-4">
+                <div class="col-lg-8">
+                    <div class="fuel-info">
+                        @for (f of marketData()?.features; track f) {
+                        <p><i class="fa-solid fa-left-long"></i> {{ f }}</p>
+                        }
+
+                        <p class="fw-bold mt-3">للاستفسارات:</p>
+                        <p class="fw-bold">
+                            {{ station()?.phone }}
+                            <i class="fa-solid fa-phone text-success"></i>
+                        </p>
+                    </div>
+
+                    <button class="btn btn-outline-success fw-bold" [routerLink]="backLink()">
+                        رجوع
+                    </button>
+                </div>
+
+                <!-- صور -->
+                <div class="col-lg-4">
+                    <div id="marketCarousel" class="carousel slide mt-2" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            @for (img of marketData()?.images; track img; let i = $index) {
+                            <div class="carousel-item" [class.active]="i === 0">
+                                <img [src]="img" class="d-block w-100 rounded-5" alt="market">
+                            </div>
+                            }
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#marketCarousel"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#marketCarousel"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

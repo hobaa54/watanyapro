@@ -1,0 +1,21 @@
+.navbar-brand img{
+    width: 90px;
+    cursor: pointer;
+}
+.navbar-nav a{
+    color: rgb(95, 4, 4);
+    font-weight: 600;
+}
+.navbar-nav:hover a{
+    color: black;
+    font-weight: 600;
+}
+/* Navbar */
+.navbar {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: transform 0.5s ease;
+}

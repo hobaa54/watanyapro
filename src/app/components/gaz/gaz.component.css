@@ -1,0 +1,124 @@
+.fuel-card:nth-child(1) { border-top: 4px solid #6c757d; }
+.fuel-card:nth-child(2) { border-top: 4px solid #198754; }
+.fuel-card:nth-child(3) { border-top: 4px solid #043785; }
+.fuel-card:nth-child(4) { border-top: 4px solid #fd7e14; }
+
+
+
+
+.all {
+    padding: 30px;
+    font-family: 'Tajawal', sans-serif;
+    background: linear-gradient(to bottom, #f0f4f8, #ffffff);
+    min-height: 100vh;
+}
+
+.typing-title {
+    margin-bottom: 30px;
+    direction: rtl;
+    border-right: .15em solid #c4c1c1;
+    font-size: 2.5rem;
+    color: rgb(83, 50, 1);
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 0;
+    animation: typing 6s steps(30) infinite, blink .7s infinite;
+}
+
+/* كتابة ثم مسح */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    /* بداية الكتابة */
+    40% {
+        width: 300px;
+    }
+
+    /* يوصل لنهاية النص */
+    60% {
+        width: 300px;
+    }
+
+    /* pause عند النهاية (هنا هيفضل ثابت 20% من الوقت) */
+    100% {
+        width: 0;
+    }
+
+    /* يرجع يختفي تدريجيًا */
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: #ff6f61;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+}
+
+.fuel-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+}
+
+.fuel-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.fuel-card i {
+    font-size: 2rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.fuel-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.fuel-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.fuel-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+.carousel-inner img {
+    background-size: contain;
+}
+
+.Image-customer {
+    width: 50px;
+
+}
+
+.fuel-info {
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+    font-size: 15.5px;
+    color: #333;
+}
+
+.typing-title {
+    background: none;
+    -webkit-text-fill-color: initial;
+}

@@ -1,0 +1,122 @@
+/* الصفحة */
+.all {
+    padding: 30px;
+    font-family: 'Tajawal', sans-serif;
+    background: linear-gradient(to bottom, #fff0f5, #ffffff);
+    min-height: 100vh;
+}
+
+/* العنوان */
+.typing-title {
+    margin-bottom: 10px;
+    direction: rtl;
+    border-right: .15em solid #d63384;
+    font-size: 2.6rem;
+    color: #d63384;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    width: 0;
+    max-width: 90vw;
+    animation: typing 6s steps(30) infinite, blink .7s infinite;
+    text-align: center;
+}
+
+/* typing */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    40% {
+        width: 300px;
+    }
+
+    60% {
+        width: 300px;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: #c9a27e;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* النص */
+.text-muted {
+    font-size: 15px;
+    text-align: center;
+    color: #9a4c6b !important;
+}
+
+/* الكروت */
+.fuel-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.fuel-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 8px 18px rgba(214, 51, 132, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fuel-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(214, 51, 132, 0.25);
+}
+
+/* أيقونات */
+.flower-icon {
+    font-size: 2.6rem;
+    color: #d63384;
+    margin-bottom: 10px;
+}
+
+/* العناوين */
+.fuel-card h2 {
+    font-size: 1.2rem;
+    color: #d63384;
+}
+
+/* الوصف */
+.fuel-card p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* معلومات */
+.fuel-info {
+    max-width: 600px;
+    margin: 30px auto 0 auto;
+    font-size: 15.5px;
+    color: #333;
+}
+
+.fuel-info i {
+    color: #d63384;
+    margin-left: 5px;
+}
+
+/* الكاروسيل */
+.carousel-inner img {
+    object-fit: cover;
+    max-height: 300px;
+    border-radius: 22px;
+}
