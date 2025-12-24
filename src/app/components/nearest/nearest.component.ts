@@ -7,7 +7,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 @Component({
   selector: 'app-nearest',
   standalone: true,
-  imports: [RouterLink, NavmainComponent, NavbarComponent],
+  imports: [RouterLink, NavbarComponent],
   templateUrl: './nearest.component.html',
   styleUrl: './nearest.component.css',
   

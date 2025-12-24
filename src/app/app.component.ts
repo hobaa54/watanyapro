@@ -14,7 +14,7 @@ import {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports:[HomeComponent, NearestComponent,RouterOutlet,NavbarComponent,],
+  imports:[RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   animations: [
