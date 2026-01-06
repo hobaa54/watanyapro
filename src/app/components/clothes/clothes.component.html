@@ -1,0 +1,107 @@
+<div class="all">
+  <div class="container my-4" dir="rtl">
+    <div class="clothes-page" >
+
+      @if (clothes(); as c) {
+
+        @if (c.available) {
+
+          <h1 class="typing-title mx-auto fw-bold">
+            {{ c.title || 'متجر الملابس' }}
+          </h1>
+          <p class="text-muted mb-4">
+            {{ c.subtitle || 'ملابس وإكسسوارات للرحلات في مكان واحد' }}
+          </p>
+
+          <!-- الكروت -->
+          <div class="fuel-cards">
+            @for (card of c.cards; track card.title) {
+              <div class="fuel-card">
+                <i [class]="card.icon"></i>
+                <h2>{{ card.title }}</h2>
+                <p>{{ card.desc }}</p>
+              </div>
+            }
+          </div>
+
+          <div class="row p-3 mt-4">
+
+            <!-- النص -->
+            <div class="col-lg-8">
+              <div class="content">
+                <h3 class="fw-bold">
+                  الخدمات <i class="fa-solid fa-clipboard-list text-brand"></i>:
+                </h3>
+
+                <ul class="fw-bold pe-0">
+                  @for (f of c.features; track f) {
+                    <li>{{ f }}</li>
+                  }
+
+                  @if (c.hours) {
+                    <li>
+                      ساعات العمل:
+                      <span class="hours-text">{{ c.hours }} ⏰</span>
+                    </li>
+                  }
+                </ul>
+              </div>
+
+              <div class="fuel-info fs-4 me-0">
+                <p class="fw-bold">للاستفســــارات:</p>
+                <p class="fw-bold">
+                  {{ station()?.phone }}
+                  <i class="fa-solid fa-phone text-brand"></i>
+                </p>
+              </div>
+
+              <button
+                class="btn btn-outline-brand fw-bold d-flex flex-row-reverse justify-content-center align-items-center"
+                [routerLink]="backLink()">
+                رجوع
+              </button>
+            </div>
+
+            <!-- الكاروسيل -->
+            <div class="col-lg-4">
+              <div class="container mt-2">
+                <div id="clothesCarousel" class="carousel slide mx-auto" data-bs-ride="carousel">
+                  <div class="carousel-inner position-relative">
+
+                    @for (img of c.images; track img; let i = $index) {
+                      <div class="carousel-item" [class.active]="i === 0">
+                        <img [src]="img" class="d-block w-100 mx-auto rounded-5" alt="clothes">
+                      </div>
+                    }
+
+                  </div>
+
+                  <button class="carousel-control-prev" type="button" data-bs-target="#clothesCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+
+                  <button class="carousel-control-next" type="button" data-bs-target="#clothesCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        } @else {
+          <p class="text-danger fw-bold">الخدمة غير متاحة في المحطة دي.</p>
+          <button class="btn btn-outline-brand fw-bold" [routerLink]="backLink()">رجوع</button>
+        }
+
+      } @else {
+        <p class="text-danger fw-bold">مش لاقي بيانات الملابس للمحطة دي.</p>
+        <button class="btn btn-outline-brand fw-bold" [routerLink]="backLink()">رجوع</button>
+      }
+
+    </div>
+  </div>
+</div>

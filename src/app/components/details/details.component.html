@@ -1,122 +1,207 @@
- <section class="station-header position-relative">
-        <div class="overlay"></div>
+<section class="station-header position-relative">
+    <div class="overlay"></div>
 
-        <div class="header-content text-center position-absolute top-50 start-50 translate-middle">
-            <h1 class="station-name fw-bold text-white display-5 ">محطات القاهرة الجديدة</h1>
-            <p class="lead text-light">2.3 km away</p>
-        </div>
-    </section>
-    <div class="container py-5" dir="rtl" @fadeUp >
-      <div class="div d-flex justify-content-between align-items-center">
-          <button
+    <div class="header-content text-center position-absolute top-50 start-50 translate-middle">
+        <h1 class="station-name fw-bold text-white display-5 ">محطات القاهرة الجديدة</h1>
+    </div>
+</section>
+<div class="container-fluid py-5" dir="rtl" @fadeUp>
+    <div class="div d-flex justify-content-between align-items-center">
+        <button
             class="btn btn-outline-success bi-arrow-bar-left d-flex flex-row-reverse justify-content-center align-items-center fw-bold"
             routerLink="/nearest">رجوع</button>
-      <button
+        <button
             class="btn btn-outline-success bi-arrow-bar-left d-flex flex-row-reverse justify-content-center align-items-center fw-bold"
             routerLink="/home">الصفحة الرئيسية</button>
+    </div>
+
+    <h2 class="text-center mb-4 bi-bookmark fs-1 fw-bold gradient-text-head " data-aos="fade-down">محطات القاهرة
+        الجديدة<span class="bi-bookmark"></span></h2>
+
+    <div class="row g-4">
+        <!-- كارد: الرحاب -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <a routerLink="/app-rehab-details">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
+                    <h4>الرحاب</h4>
+                    <p>منطقة سكنية كبيرة داخل القاهرة الجديدة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                        <span>🛒</span>
+                    </div>
+                </div>
+            </a>
         </div>
-            
-        <h2 class="text-center mb-4 bi-bookmark fs-1 fw-bold gradient-text-head " data-aos="fade-down">محطات القاهرة الجديدة<span
-                class="bi-bookmark"></span></h2>
 
-        <div class="row g-4">
-            <!-- كارد: الرحاب -->
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
-                <a routerLink="/app-rehab-details">
-                    <div class="card station-card p-3 text-center">
-                        <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
-                        <h4>الرحاب</h4>
-                        <p>منطقة سكنية كبيرة داخل القاهرة الجديدة</p>
-                        <div class="station-icons mb-3 ">
-                            <span>⛽</span>
-                            <span>🚗</span>
-                            <span>☕</span>
-                            <span>🛒</span>
-                        </div>
+        <!-- مدينتي -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <a routerLink="/app-madinty">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-building"></i></div>
+                    <h4>مدينتي</h4>
+                    <p>إحدى أكبر المدن السكنية الحديثة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                        <span>🛒</span>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
+        </div>
 
-            <!-- مدينتي -->
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
-                <a routerLink="/app-madinty">
-                    <div class="card station-card p-3 text-center">
-                        <div class="icon-circle"><i class="fa-solid fa-building"></i></div>
-                        <h4>مدينتي</h4>
-                        <p>إحدى أكبر المدن السكنية الحديثة</p>
-                        <div class="station-icons mb-3 ">
-                            <span>⛽</span>
-                            <span>🚗</span>
-                            <span>☕</span>
-                            <span>🛒</span>
-                        </div>
+        <!-- التجمع الأول -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+            <a routerLink="/app-forest">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-map-location"></i></div>
+                    <h4>الغــابه المتحـــجره</h4>
+                    <p>من أبرز مناطق القاهرة الجديدة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                        <span>🛒</span>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
+        </div>
 
-            <!-- التجمع الأول -->
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
-                <a >
-                    <div class="card station-card p-3 text-center">
-                        <div class="icon-circle"><i class="fa-solid fa-map-location"></i></div>
-                        <h4>المســتقبل</h4>
-                        <p>من أبرز مناطق القاهرة الجديدة</p>
-                        <div class="station-icons mb-3 ">
-                            <span>⛽</span>
-                            <span>🚗</span>
-                            <span>☕</span>
-                            <span>🛒</span>
-                        </div>
+        <!-- التجمع الثالث -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+            <a routerLink="/app-auc-st">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                    <h4>الجامعه الأمريـــكيه</h4>
+                    <p>منطقة هادئة وسكنية</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🛒</span>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
+        </div>
 
-            <!-- التجمع الثالث -->
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
-                <a >
-                    <div class="card station-card p-3 text-center">
-                        <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
-                        <h4>التجمع الثالث</h4>
-                        <p>منطقة هادئة وسكنية</p>
-                        <div class="station-icons mb-3 ">
-                            <span>⛽</span>
-                            <span>🛒</span>
-                        </div>
+        <!-- التجمع الخامس -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+            <a routerLink="/app-tagamo3-5">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-house"></i></div>
+                    <h4>التجمع الخامس ميدور</h4>
+                    <p>أشهر مناطق القاهرة الجديدة وأكثرها نشاطًا</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>🛒</span>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
+        </div>
 
-            <!-- التجمع الخامس -->
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
-                <a routerLink="/app-tagamo3-5">
-                    <div class="card station-card p-3 text-center">
-                        <div class="icon-circle"><i class="fa-solid fa-house"></i></div>
-                        <h4>التجمع الخامس</h4>
-                        <p>أشهر مناطق القاهرة الجديدة وأكثرها نشاطًا</p>
-                        <div class="station-icons mb-3 ">
-                            <span>⛽</span>
-                            <span>🚗</span>
-                            <span>🛒</span>
-                        </div>
+        <!-- النرجس -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <a routerLink="/app-tirumph-station">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-tree"></i></div>
+                    <h4>تريومف</h4>
+                    <p>تُعرف بالفلل السكنية والشوارع الهادئة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
                     </div>
-                </a>
-            </div>
-
-            <!-- النرجس -->
-            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
-                <a routerLink="/app-tirumph-station">
-                    <div class="card station-card p-3 text-center">
-                        <div class="icon-circle"><i class="fa-solid fa-tree"></i></div>
-                        <h4>تريومف</h4>
-                        <p>تُعرف بالفلل السكنية والشوارع الهادئة</p>
-                        <div class="station-icons mb-3 ">
-                            <span>⛽</span>
-                            <span>🚗</span>
-                            <span>☕</span>
-                        </div>
+                </div>
+            </a>
+        </div>
+        <!-- Master 1 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <a routerLink="/app-master1">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-tree"></i></div>
+                    <h4>السخنه ماســتر 1</h4>
+                    <p>تُعرف بالفلل السكنية والشوارع الهادئة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
                     </div>
-                </a>
-            </div>
-
+                </div>
+            </a>
+        </div>
+        <!--  -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <a routerLink="/app-master2">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-tree"></i></div>
+                    <h4>السخنه ماســتر 2</h4>
+                    <p>تُعرف بالفلل السكنية والشوارع الهادئة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <a routerLink="/app-academy">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-tree"></i></div>
+                    <h4>خلف الأكاديمــية</h4>
+                    <p>تُعرف بالفلل السكنية والشوارع الهادئة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!--! NEW Edition -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <a routerLink="/app-loutas">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-tree"></i></div>
+                    <h4>اللوتس</h4>
+                    <p>تُعرف بالفلل السكنية والشوارع الهادئة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <a routerLink="">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-tree"></i></div>
+                    <h4></h4>
+                    <p>تُعرف بالفلل السكنية والشوارع الهادئة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+            <a routerLink="">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-tree"></i></div>
+                    <h4></h4>
+                    <p>تُعرف بالفلل السكنية والشوارع الهادئة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
+</div>

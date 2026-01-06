@@ -2,7 +2,7 @@
 .all {
     padding: 30px;
     font-family: 'Tajawal', sans-serif;
-    background: linear-gradient(to bottom, #fff0f5, #ffffff);
+    background: linear-gradient(to bottom, #d3cdcf, #ffffff);
     min-height: 100vh;
 }
 
@@ -12,7 +12,7 @@
     direction: rtl;
     border-right: .15em solid #d63384;
     font-size: 2.6rem;
-    color: #d63384;
+    color: #0a552c;
     overflow: hidden;
     white-space: nowrap;
     letter-spacing: 2px;
@@ -57,7 +57,7 @@
 .text-muted {
     font-size: 15px;
     text-align: center;
-    color: #9a4c6b !important;
+    color: #19301c !important;
 }
 
 /* الكروت */
@@ -85,14 +85,15 @@
 /* أيقونات */
 .flower-icon {
     font-size: 2.6rem;
-    color: #d63384;
+    color: #12573a;
     margin-bottom: 10px;
 }
 
 /* العناوين */
 .fuel-card h2 {
     font-size: 1.2rem;
-    color: #d63384;
+    color: #000000;
+    font-weight: bold;
 }
 
 /* الوصف */
@@ -110,7 +111,7 @@
 }
 
 .fuel-info i {
-    color: #d63384;
+    color: #03160b;
     margin-left: 5px;
 }
 

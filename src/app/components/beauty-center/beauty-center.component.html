@@ -1,0 +1,106 @@
+<div class="all">
+    <div class="container my-4" dir="rtl">
+        <div class="beauty-page" @fadeUp>
+
+            @if (beauty(); as b) {
+
+            @if (b.available) {
+
+            <h1 class="typing-title mx-auto fw-bold">
+                {{ b.title || 'Beauty Center' }}
+            </h1>
+            <p class="text-muted mb-4">
+                {{ b.subtitle || 'خدمات العناية والجمال في مكان واحد' }}
+            </p>
+
+            <!-- الكروت -->
+            <div class="fuel-cards">
+                @for (card of b.cards; track card.title) {
+                <div class="fuel-card">
+                    <i [class]="card.icon"></i>
+                    <h2>{{ card.title }}</h2>
+                    <p>{{ card.desc }}</p>
+                </div>
+                }
+            </div>
+
+            <div class="row p-3 mt-4">
+
+                <!-- النص -->
+                <div class="col-lg-8">
+                    <div class="content">
+                        <h3 class="fw-bold">الخدمات <i class="fa-solid fa-star text-pink"></i>:</h3>
+
+                        <ul class="fw-bold pe-0">
+                            @for (f of b.features; track f) {
+                            <li>{{ f }}</li>
+                            }
+                            @if (b.hours) {
+                            <li>
+                                ساعات العمل:
+                                <span class="text-success mb-0">{{ b.hours }} ⏰</span>
+                            </li>
+                            }
+                        </ul>
+                    </div>
+
+                    <div class="fuel-info fs-4 me-0">
+                        <p class="fw-bold">للاستفســــارات والحجـــــز :</p>
+                        <p class="fw-bold">
+                            {{ station()?.phone }}
+                            <i class="fa-solid fa-phone text-pink"></i>
+                        </p>
+                    </div>
+
+                    <button
+                        class="btn btn-outline-pink fw-bold d-flex flex-row-reverse justify-content-center align-items-center"
+                        [routerLink]="backLink()">
+                        رجوع
+                    </button>
+                </div>
+
+                <!-- الكاروسيل -->
+                <div class="col-lg-4">
+                    <div class="container mt-2">
+                        <div id="beautyCarousel" class="carousel slide mx-auto" data-bs-ride="carousel">
+                            <div class="carousel-inner position-relative">
+
+                                @for (img of b.images; track img; let i = $index) {
+                                <div class="carousel-item" [class.active]="i === 0">
+                                    <img [src]="img" class="d-block w-100 mx-auto rounded-5" alt="beauty">
+                                </div>
+                                }
+
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#beautyCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#beautyCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            } @else {
+            <p class="text-danger fw-bold">الخدمة غير متاحة في المحطة دي.</p>
+            <button class="btn btn-outline-secondary fw-bold" [routerLink]="backLink()">رجوع</button>
+            }
+
+            } @else {
+            <p class="text-danger fw-bold">مش لاقي بيانات Beauty للمحطة دي.</p>
+            <button class="btn btn-outline-secondary fw-bold" [routerLink]="backLink()">رجوع</button>
+            }
+
+        </div>
+    </div>
+</div>

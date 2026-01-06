@@ -62,5 +62,25 @@ export const SERVICES3 = [
     icon: 'bi bi-cup-hot-fill',
     route: '/coffee/tagamo35/'
   },
+  {
+    title: 'مطاعم',
+    icon: 'bi bi-shop-window',
+    route: '/restaurant/tagamo35'
+  },
+  {
+    title: 'صيدليات',
+    icon: 'fa-solid fa-capsules',
+    route: '/pharmacy/tagamo35'
+  },
+  {
+    title: 'متجر الملابس',
+    icon: 'fa-solid fa-tshirt',
+    route: '/clothes/tagamo35'
+  },
+  {
+    title: 'منطقة المعاملات',
+    icon: 'bi bi-emoji-smile-fill',
+    route: '/atm/tagamo35'
+  },
 
 ];

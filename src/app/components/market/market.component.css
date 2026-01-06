@@ -78,18 +78,20 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
+
 .fuel-cards {
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  max-width: 900px;
-  margin: 0 auto;
-  align-items: start;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: start;
 }
 
 .fuel-card {
-  height: fit-content;
+    height: fit-content;
 }
+
 .fuel-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 25px rgba(25, 135, 84, 0.25);
@@ -140,3 +142,57 @@
     border-radius: 20px;
 }
 
+/* 1) خلي ارتفاع الصف حسب المحتوى (مش Stretch قوي) */
+.fuel-cards {
+    align-items: start;
+    /* بدل ما الكروت تتمد لنفس الارتفاع */
+}
+
+/* 2) خلي الكارد Flex عشان التحكم في المسافات */
+.fuel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 18px;
+}
+
+/* 3) قلّل مساحة اللوجو شوية (اختياري) */
+.restaurant-logo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 0;
+}
+
+/* 4) خلي العنوان سطرين كحد أقصى */
+.fuel-card h2 {
+    margin: 0;
+    line-height: 1.2;
+    display: -webkit-box;
+    /* سطرين */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* 5) خلي الوصف سطرين/3 كحد أقصى */
+.fuel-card p {
+    margin: 0;
+    line-height: 1.35;
+    display: -webkit-box;
+    /* خلّيها 2 أو 3 براحتك */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* 6) اختيار إضافي: حد أدنى لطيف وبدون تمدد مبالغ */
+.fuel-card {
+    min-height: 200px;
+    /* جرّب 190-220 حسب ذوقك */
+}
+
+.fuel-cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    /* ده اللي بيخلي 1 أو 2 كارد في النص */
+}

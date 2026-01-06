@@ -66,5 +66,10 @@ export const SERVICES3 = [
     icon: 'bi bi-cup-hot-fill',
     route: '/coffee/tirumph/'
   },
+   {
+    title: 'محل بيع زهور',
+    icon: 'fa-solid fa-leaf',
+    route: '/flowers/tirumph/'
+  }
 
 ];

@@ -3,7 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { ALL_STATIONS } from '../cards.data'; // عدّل المسار حسب مشروعك
 
-type StationId = 'rehab' | 'madinty' |'tirumph'|'tagamo35';
+type StationId = 'rehab' | 'madinty' |'tirumph'|'tagamo35' | 'AUC' | 'forest';
 
 @Component({
   selector: 'app-flowers',
@@ -34,13 +34,17 @@ export class FlowersComponent {
     if (id === 'madinty') return '/app-madinty';
     if (id === 'tirumph') return '/app-tirumph-station'; // عدّلها حسب route بتاع tirumph
     if (id === 'tagamo35') return '/app-tagamo3-5'; // عدّلها حسب route بتاع tirumph
+    if (id === 'AUC') return '/app-auc-st'; // عدّلها حسب route بتاع AUC
+    if (id === 'forest') return '/app-forest'; // عدّلها حسب route بتاع forest
     return '/details';
   });
 
   constructor(private route: ActivatedRoute) {
     this.route.paramMap.subscribe(pm => {
       const id = pm.get('stationId');
-      if (id === 'rehab' || id === 'madinty' || id === 'tagamo35') this.stationId.set(id);
+      if (id === 'rehab' || id === 'madinty' || id === 'tagamo35' || id === 'tirumph' || id === 'AUC' 
+      || id === 'forest'
+      ) this.stationId.set(id);
     });
   }
 }
