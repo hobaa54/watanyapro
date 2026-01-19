@@ -2,7 +2,8 @@ import { Component, computed, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { ALL_STATIONS } from '../cards.data';
-type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Loutas';
+type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Loutas' | 'Sadat1' | 
+'Obour2'| 'October2' | 'October1' ;
 
 @Component({
   selector: 'app-vap',
@@ -36,6 +37,10 @@ export class VapComponent {
     if (id === 'AUC') return '/app-auc-st';   // عدّلها حسب route بتاع AUC
     if (id === 'forest') return '/app-forest'; // عدّلها حسب route بتاع forest
     if (id === 'Loutas') return '/app-loutas'; // عدّلها حسب route بتاع Loutas
+    if (id === 'Sadat1') return '/app-sadat1'; // عدّلها حسب route بتاع Sadat1
+    if (id === 'Obour2') return '/app-obour2'; // عدّلها حسب route بتاع Obour
+    if (id === 'October2') return '/app-october2'; // عدّلها حسب route بتاع October2
+    if (id === 'October1') return '/app-october1'; // عدّلها حسب route بتاع October2
     return '/details';
   });
 

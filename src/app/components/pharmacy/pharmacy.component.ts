@@ -3,7 +3,8 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { ALL_STATIONS } from '../cards.data'; // عدّل المسار لو مختلف
 
-type StationId = 'rehab' | 'madinty' | 'tirumph' |'tagamo35' | 'AUC' | 'forest';
+type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Sadat1' | 'October2' 
+| 'October3'| 'October1';
 
 
 @Component({
@@ -37,6 +38,10 @@ export class PharmacyComponent {
     if (id === 'tagamo35') return '/app-tagamo3-5'; // عدّلها حسب route بتاع tirumph
     if (id === 'AUC') return '/app-auc-st'; // عدّلها حسب route بتاع AUC
     if (id === 'forest') return '/app-forest'; // عدّلها حسب route بتاع forest
+    if (id === 'Sadat1') return '/app-sadat1'; // عدّلها حسب route بتاع forest
+    if (id === 'October2') return '/app-october2'; // عدّلها حسب route بتاع October2
+    if (id === 'October3') return '/app-october3'; // عدّلها حسب route بتاع October2
+    if (id === 'October1') return '/app-october1'; // عدّلها حسب route بتاع October2
     return '/details';
   });
 
@@ -45,8 +50,8 @@ export class PharmacyComponent {
   constructor(private route: ActivatedRoute) {
     this.route.paramMap.subscribe(pm => {
       const id = pm.get('stationId');
-      if (id === 'rehab' || id === 'madinty'|| id==='tirumph' || id ==='tagamo35' || id === 'AUC'
-        || id === 'forest'
+      if (id === 'rehab' || id === 'madinty' || id === 'tirumph' || id === 'tagamo35' || id === 'AUC'
+        || id === 'forest' || id === 'Sadat1' || id === 'October2' || id === 'October3' || id === 'October1'
       ) this.stationId.set(id);
     });
   }

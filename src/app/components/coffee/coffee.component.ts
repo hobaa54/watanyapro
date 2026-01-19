@@ -3,7 +3,8 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { ALL_STATIONS, Tirumph } from '../cards.data';
 
-type StationId = 'rehab' | 'madinty' | 'tirumph' |'tagamo35' | 'AUC' | 'forest' | 'Master' |'Academy' |'Loutas';
+type StationId = 'rehab' | 'madinty' | 'tirumph' |'tagamo35' | 'AUC' | 'forest' | 'Master' |'Academy' |'Loutas'
+| 'Sadat1' | 'Sadat2' | 'AirHosbital' | 'Rehab2' | 'Obour2' | 'October2' | 'October1' | 'October3';
 
 @Component({
   selector: 'app-coffee',
@@ -37,6 +38,14 @@ export class CoffeeComponent {
     if (id === 'Master') return '/app-master1'; // عدّلها حسب route بتاع Master
     if (id === 'Academy') return '/app-academy'; // عدّلها حسب route بتاع Academy
     if (id === 'Loutas') return '/app-loutas'; // عدّلها حسب route بتاع Loutas
+    if (id === 'Sadat1') return '/app-sadat1'; // عدّلها حسب route بتاع Sadat1
+    if (id === 'Sadat2') return '/app-sadat2'; // عدّلها حسب route بتاع Sadat2
+    if (id === 'AirHosbital') return '/app-air-hospital'; // عدّلها حسب route بتاع AirHosbital
+    if (id === 'Rehab2') return '/app-rehab2';  // عدّلها حسب route بتاع Rehab2
+    if (id === 'Obour2') return '/app-obour2';  // عدّلها حسب route بتاع Rehab2
+    if (id === 'October2') return '/app-october2'; // عدّلها حسب route بتاع October2
+    if (id === 'October1') return '/app-october1'; // عدّلها حسب route بتاع October1
+    if (id === 'October3') return '/app-october3'; // عدّلها حسب route بتاع October3
     return '/details';
   });
 
@@ -44,8 +53,8 @@ export class CoffeeComponent {
     this.route.paramMap.subscribe(pm => {
       const id = pm.get('stationId');
       if (id === 'rehab' || id === 'madinty' || id === 'tirumph' || id === 'tagamo35' || id === 'AUC' || id === 'forest'
-        || id === 'Master' || id === 'Academy' || id === 'Loutas'
-       ) {
+        || id === 'Master' || id === 'Academy' || id === 'Loutas' || id === 'Sadat1' || id === 'Sadat2' || id === 'AirHosbital' || id === 'Rehab2'
+       || id=== 'Obour2' || id === 'October2' || id === 'October1' || id === 'October3') {
         this.stationId.set(id);
       }
     });

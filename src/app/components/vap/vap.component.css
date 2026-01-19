@@ -11,7 +11,7 @@
     background: #fff;
     border-radius: 20px;
     padding: 22px 18px;
-    box-shadow: 0 12px 28px rgba(18, 38, 63, 0.08);
+    box-shadow: 0 12px 28px rgba(59, 59, 17, 0.08);
     border: 1px solid rgba(0, 0, 0, 0.04);
 }
 
@@ -19,9 +19,9 @@
 .typing-title {
     margin-bottom: 10px;
     direction: rtl;
-    border-right: .15em solid #2b231d;
+    border-right: .15em solid #5e2e0a;
     font-size: 2.5rem;
-    color: #114350;
+ color: rgb(230, 173, 16);
     overflow: hidden;
     white-space: nowrap;
     letter-spacing: 2px;
@@ -53,7 +53,7 @@
 
     0%,
     100% {
-        border-color: #183541;
+        border-color: #584c15;
     }
 
     50% {
@@ -118,7 +118,7 @@
     border-radius: 14px;
     margin-bottom: 10px;
     background: rgba(13, 110, 253, 0.10);
-    color: #0d6efd;
+    color: #062e69;
 }
 
 .fuel-card h2 {
@@ -145,7 +145,7 @@
 }
 
 .fuel-info i.fa-left-long {
-    color: #0d6efd;
+    color: #021635;
     margin-left: 8px;
 }
 

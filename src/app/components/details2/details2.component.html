@@ -1,0 +1,56 @@
+<section class="station-header position-relative">
+    <div class="overlay"></div>
+
+    <div class="header-content text-center position-absolute top-50 start-50 translate-middle">
+        <h1 class="station-name fw-bold text-white display-5 ">محطات القاهرة الجديدة</h1>
+    </div>
+</section>
+<div class="container-fluid py-5" dir="rtl" @fadeUp>
+    <div class="div d-flex justify-content-between align-items-center">
+        <button
+            class="btn btn-outline-success bi-arrow-bar-left d-flex flex-row-reverse justify-content-center align-items-center fw-bold"
+            routerLink="/nearest">رجوع</button>
+        <button
+            class="btn btn-outline-success bi-arrow-bar-left d-flex flex-row-reverse justify-content-center align-items-center fw-bold"
+            routerLink="/home">الصفحة الرئيسية</button>
+    </div>
+
+    <h2 class="text-center mb-4 bi-bookmark fs-1 fw-bold gradient-text-head " data-aos="fade-down">محطات مدينة العبــور<span class="bi-bookmark"></span></h2>
+
+    <div class="row g-4">
+        <!-- كارد: الرحاب -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+            <a routerLink="/app-obour1">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
+                    <h4>العبور 1</h4>
+                    <p>منطقة سكنية كبيرة داخل القاهرة الجديدة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                        <span>🛒</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- مدينتي -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+            <a routerLink="/app-obour2">
+                <div class="card station-card p-3 text-center">
+                    <div class="icon-circle"><i class="fa-solid fa-building"></i></div>
+                    <h4>العبور 2</h4>
+                    <p>إحدى أكبر المدن السكنية الحديثة</p>
+                    <div class="station-icons mb-3 ">
+                        <span>⛽</span>
+                        <span>🚗</span>
+                        <span>☕</span>
+                        <span>🛒</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+      
+</div>

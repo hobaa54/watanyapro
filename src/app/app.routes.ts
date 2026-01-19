@@ -24,6 +24,20 @@ import { Master1Component } from './components/master1/master1.component';
 import { Master2Component } from './components/master2/master2.component';
 import { AcademyComponent } from './components/academy/academy.component';
 import { LoutasComponent } from './components/loutas/loutas.component';
+import { Sadat1Component } from './components/sadat1/sadat1.component';
+import { Sadat2Component } from './components/sadat2/sadat2.component';
+import { South90Component } from './components/south90/south90.component';
+import { AirHosbitalComponent } from './components/air-hosbital/air-hosbital.component';
+import { Rehab2Component } from './components/rehab2/rehab2.component';
+import { Details2Component } from './components/details2/details2.component';
+import { Obour1Component } from './components/obour1/obour1.component';
+import { Obour2Component } from './components/obour2/obour2.component';
+import { OctoberDetailsComponent } from './components/october-details/october-details.component';
+import { October2Component } from './components/october2/october2.component';
+import { October1Component } from './components/october1/october1.component';
+import { October3Component } from './components/october3/october3.component';
+import { October4Component } from './components/october4/october4.component';
+import { October5Component } from './components/october5/october5.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -32,6 +46,8 @@ export const routes: Routes = [
     { path: 'nearest', component: NearestComponent, title: 'nearest' },
     { path: 'navbar', component: NavbarComponent, title: 'navbar' },
     { path: 'details', component: DetailsComponent, title: 'details' },
+    { path: 'details2', component: Details2Component, title: 'details2' },
+    { path: 'app-october-details', component: OctoberDetailsComponent, title: 'OctoberDetails' },
     //!Stations
     { path: 'app-rehab-details', component: RehabDetailsComponent, title: 'rehab' },
     { path: 'app-madinty', component: MadintyComponent, title: 'madinty' },
@@ -43,6 +59,18 @@ export const routes: Routes = [
     { path: 'app-master2', component: Master2Component, title: 'Master2' },
     { path: 'app-academy', component: AcademyComponent, title: 'Academy' },
     { path: 'app-loutas', component: LoutasComponent, title: 'Loutas' },
+    { path: 'app-sadat1', component: Sadat1Component, title: 'Sadat1' },
+    { path: 'app-sadat2', component: Sadat2Component, title: 'Sadat2' },
+    { path: 'app-south90', component: South90Component, title: 'South90' },
+    { path: 'app-air-hosbital', component: AirHosbitalComponent, title: 'AirHosbital' },
+    { path: 'app-rehab2', component: Rehab2Component, title: 'Rehab2' },
+    { path: 'app-obour1', component: Obour1Component, title: 'Obour1' },
+    { path: 'app-obour2', component: Obour2Component, title: 'Obour2' },
+    { path: 'app-october2', component: October2Component, title: 'October2' },
+    { path: 'app-october1', component: October1Component, title: 'October1' },
+    { path: 'app-october3', component: October3Component, title: 'October3' },
+    { path: 'app-october4', component: October4Component, title: 'October4' },
+    { path: 'app-october5', component: October5Component, title: 'October5' },
 
     // Route واحد للجاز وبـ stationId
     { path: 'gaz/:stationId', component: GazComponent, title: 'gaz' },
