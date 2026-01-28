@@ -1,3 +1,4 @@
+import { Zayed2Component } from './components/zayed2/zayed2.component';
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { NearestComponent } from './components/nearest/nearest.component';
@@ -38,6 +39,19 @@ import { October1Component } from './components/october1/october1.component';
 import { October3Component } from './components/october3/october3.component';
 import { October4Component } from './components/october4/october4.component';
 import { October5Component } from './components/october5/october5.component';
+import { October6Component } from './components/october6/october6.component';
+import { October7Component } from './components/october7/october7.component';
+import { ZayedDetailsComponent } from './components/zayed-details/zayed-details.component';
+import { Zayed1Component } from './components/zayed1/zayed1.component';
+import { ElshoroukDetailsComponent } from './components/elshorouk-details/elshorouk-details.component';
+import { Shorouk1Component } from './components/shorouk1/shorouk1.component';
+import { ShopsComponent } from './components/shops/shops.component';
+import { Shorouk2Component } from './components/shorouk2/shorouk2.component';
+import { Shorouk3Component } from './components/shorouk3/shorouk3.component';
+import { Shorouk4Component } from './components/shorouk4/shorouk4.component';
+import { NewAlameinComponent } from './components/new-alamein/new-alamein.component';
+import { Alamin1Component } from './components/alamin1/alamin1.component';
+import { Alamin2Component } from './components/alamin2/alamin2.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -48,6 +62,9 @@ export const routes: Routes = [
     { path: 'details', component: DetailsComponent, title: 'details' },
     { path: 'details2', component: Details2Component, title: 'details2' },
     { path: 'app-october-details', component: OctoberDetailsComponent, title: 'OctoberDetails' },
+    { path: 'app-zayed-details', component: ZayedDetailsComponent, title: 'ZayedDetails' },
+    { path: 'app-elshorouk-details', component: ElshoroukDetailsComponent, title: 'ElshoroukDetails' },
+    { path: 'app-new-alamein', component: NewAlameinComponent, title: 'NewAlamein' },
     //!Stations
     { path: 'app-rehab-details', component: RehabDetailsComponent, title: 'rehab' },
     { path: 'app-madinty', component: MadintyComponent, title: 'madinty' },
@@ -71,6 +88,16 @@ export const routes: Routes = [
     { path: 'app-october3', component: October3Component, title: 'October3' },
     { path: 'app-october4', component: October4Component, title: 'October4' },
     { path: 'app-october5', component: October5Component, title: 'October5' },
+    { path: 'app-october6', component: October6Component, title: 'October6' },
+    { path: 'app-october7', component: October7Component, title: 'October7' },
+    { path: 'app-zayed1', component: Zayed1Component, title: 'Zayed1' },
+    { path: 'app-zayed2', component: Zayed2Component, title: 'Zayed2' },
+    { path: 'app-shorouk1', component: Shorouk1Component, title: 'Shorouk1' },
+    { path: 'app-shorouk2', component: Shorouk2Component, title: 'Shorouk2' },
+    { path: 'app-shorouk3', component: Shorouk3Component, title: 'Shorouk3' },
+    { path: 'app-shorouk4', component: Shorouk4Component, title: 'Shorouk4' },
+    { path: 'app-alamin1', component: Alamin1Component, title: 'Alamin1' },
+    { path: 'app-alamin2', component: Alamin2Component, title: 'Alamin2' },
 
     // Route واحد للجاز وبـ stationId
     { path: 'gaz/:stationId', component: GazComponent, title: 'gaz' },
@@ -84,6 +111,7 @@ export const routes: Routes = [
     { path: 'vap/:stationId', component: VapComponent, title: 'vap' },
     { path: 'clothes/:stationId', component: ClothesComponent, title: 'clothes' },
     { path: 'beauty-center/:stationId', component: BeautyComponent, title: 'beauty-center' },
+    { path: 'shops/:stationId', component: ShopsComponent, title: 'shops' },
 
 
 

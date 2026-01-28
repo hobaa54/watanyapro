@@ -51,7 +51,7 @@
 } */
 
 /* Services Boxes */
- .service-box {
+.service-box {
     background: #fff;
     transition: 0.3s;
     cursor: pointer;
@@ -64,7 +64,7 @@
 .service-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-} 
+}
 
 
 
@@ -72,9 +72,14 @@
 
 .gradient-text-head {
     background: linear-gradient(90deg, #a17b7b, rgb(83, 50, 1), #850909, #0000ff0c);
+    background-clip: text;
+    /* Standard */
     -webkit-background-clip: text;
+    /* Webkit */
+    color: transparent;
+    /* Standard */
     -webkit-text-fill-color: transparent;
+    /* Webkit */
     font-size: 48px;
     font-weight: bold;
 }
-

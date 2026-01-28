@@ -3,9 +3,10 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { ALL_STATIONS } from '../cards.data'; // عدّل المسار لو مختلف
 
-type StationId = 'rehab' | 'madinty' | 'tirumph' |'tagamo35' | 'AUC' | 'forest' | 'Master' | 'Master2' | 'Academy' | 'Loutas'
-| 'Sadat1' | 'Sadat2' | 'AirHosbital' | 'Rehab2' | 'Obour1' | 'Obour2' | 'October2' | 'October3' | 'October1'
-| 'October4' | 'October5';
+type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Master' | 'Master2' | 'Academy' | 'Loutas'
+  | 'Sadat1' | 'Sadat2' | 'AirHosbital' | 'Rehab2' | 'Obour1' | 'Obour2' | 'October2' | 'October3' | 'October1'
+  | 'October4' | 'October5' | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk1' | 'Shorouk2' | 'Shorouk3' | 'Shorouk4' | 'Alamin1'
+  | 'Alamin2';
 
 @Component({
   selector: 'app-market',
@@ -52,6 +53,15 @@ export class MarketComponent {
     if (id === 'October1') return '/app-october1'; // عدّلها حسب route بتاع October1
     if (id === 'October4') return '/app-october4'; // عدّلها حسب route بتاع October4
     if (id === 'October5') return '/app-october5'; // عدّلها حسب route بتاع October5
+    if (id === 'October7') return '/app-october7'; // عدّلها حسب route بتاع October7
+    if (id === 'Zayed1') return '/app-zayed1'; // عدّلها حسب route بتاع Zayed1
+    if (id === 'Zayed2') return '/app-zayed2'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Shorouk1') return '/app-shorouk1'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Shorouk2') return '/app-shorouk2'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Shorouk3') return '/app-shorouk3'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Shorouk4') return '/app-shorouk4'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Alamin1') return '/app-alamin1'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Alamin2') return '/app-alamin2'; // عدّلها حسب route بتاع Zayed2
     return '/details';
   });
 
@@ -59,10 +69,12 @@ export class MarketComponent {
   constructor(private route: ActivatedRoute) {
     this.route.paramMap.subscribe(pm => {
       const id = pm.get('stationId');
-      if (id === 'rehab' || id === 'madinty' || id==='tirumph' || id === 'tagamo35' || id === 'AUC'
-        || id === 'forest' || id === 'Master' || id === 'Master2' || id === 'Loutas' 
-        || id === 'Sadat1' || id === 'Sadat2' || id === 'AirHosbital' || id === 'Rehab2' || id === 'Obour1'|| id === 'Obour2'
-        || id === 'October2' || id === 'October3'|| id === 'October1' || id === 'October4' || id === 'October5'
+      if (id === 'rehab' || id === 'madinty' || id === 'tirumph' || id === 'tagamo35' || id === 'AUC'
+        || id === 'forest' || id === 'Master' || id === 'Master2' || id === 'Loutas'
+        || id === 'Sadat1' || id === 'Sadat2' || id === 'AirHosbital' || id === 'Rehab2' || id === 'Obour1' || id === 'Obour2'
+        || id === 'October2' || id === 'October3' || id === 'October1' || id === 'October4' || id === 'October5' || id === 'October7'
+        || id === 'Zayed1' || id === 'Zayed2' || id === 'Shorouk1' || id === 'Shorouk2' || id === 'Shorouk3' || id==='Shorouk4'
+        || id === 'Alamin1' || id==='Alamin2'
 
       ) this.stationId.set(id);
     });

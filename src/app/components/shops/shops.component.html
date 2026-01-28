@@ -1,0 +1,48 @@
+<div class="all">
+    <div class="container my-4" dir="rtl">
+        <div class="vap-page">
+
+            <h1 class="typing-title mx-auto fw-bold">
+                {{ ShopsData()?.title || 'Shops Station' }}
+            </h1>
+
+            <p class="text-muted mb-4">
+                {{ ShopsData()?.subtitle || 'محلات متنوعه' }}
+            </p>
+
+            <div class="fuel-cards">
+                @for (c of ShopsData()?.cards; track c.title) {
+                <div class="fuel-card">
+                    <i [class]="c.icon"></i>
+                    <h2>{{ c.title }}</h2>
+                    <p>{{ c.desc }}</p>
+                </div>
+                }
+            </div>
+
+            <div class="row p-3 mt-4">
+                <div class="col-lg-8">
+                    <div class="fuel-info text-danger fw-bold  fs-2">
+                        @for (f of ShopsData()?.features; track f) {
+                        <p><i class="fa-solid fa-left-long "></i> {{ f }}</p>
+                        }
+
+
+                    </div>
+                    <p class="fw-bold mt-3">للاستفسارات:</p>
+                    <p class="fw-bold">
+                        {{ station()?.phone }}
+                        <i class="fa-solid fa-phone text-primary"></i>
+                    </p>
+
+                    <button class="btn btn-outline-primary rounded-4 fw-bold" [routerLink]="backLink()">
+                        رجوع
+                    </button>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>

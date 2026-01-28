@@ -1,0 +1,204 @@
+/* ====== Page Wrapper ====== */
+.all {
+    min-height: 100vh;
+    padding: 20px 0;
+    background: linear-gradient(180deg, #f7f8fb 0%, #ffffff 100%);
+    font-family: "Cairo", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* ====== Page Container ====== */
+.vap-page {
+    padding: 22px 18px;
+}
+
+/* ====== Title ====== */
+.typing-title {
+    margin-bottom: 10px;
+    direction: rtl;
+    border-right: .15em solid #5e2e0a;
+    font-size: 2.5rem;
+    color: rgb(41, 31, 2);
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    width: 0;
+    animation: typing 6s steps(30) infinite, blink .7s infinite;
+    text-align: center;
+}
+
+/* كتابة – انتظار – مسح */
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+
+    40% {
+        width: 300px;
+    }
+
+    60% {
+        width: 300px;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: #584c15;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+.vap-page>p.text-muted {
+    text-align: center;
+    max-width: 720px;
+    margin: 10px auto 18px auto;
+    font-size: 0.98rem;
+}
+
+/* ====== Cards Grid ====== */
+.fuel-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.fuel-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.05);
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.fuel-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top, rgba(0, 0, 0, 0.1), transparent 60%);
+    opacity: 0;
+    transition: opacity 0.18s ease;
+}
+
+.fuel-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(0, 34, 86, 0.25);
+    box-shadow: 0 16px 28px rgba(0, 30, 73, 0.12);
+}
+
+.fuel-card:hover::before {
+    opacity: 1;
+}
+
+.fuel-card i {
+    font-size: 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    background: rgba(13, 110, 253, 0.10);
+    color: #011430;
+}
+
+.fuel-card h2 {
+    font-size: 1.05rem;
+    margin: 6px 0 6px;
+    font-weight: 800;
+    color: #1f2a37;
+}
+
+.fuel-card p {
+    margin: 0;
+    font-size: 0.92rem;
+    color: #6b7280;
+    line-height: 1.4;
+}
+
+
+
+.fuel-info p {
+    margin: 8px 0;
+    line-height: 1.55;
+}
+
+.fuel-info i.fa-left-long {
+    color: #021635;
+    margin-left: 8px;
+}
+
+/* Phone line */
+.fuel-info .fw-bold {
+    font-weight: 800 !important;
+}
+
+/* ====== Carousel ====== */
+.carousel {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.10);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.carousel img {
+    height: 320px;
+    object-fit: cover;
+}
+
+
+
+
+/* ====== Responsive ====== */
+/* @media (max-width: 1200px) {
+    .fuel-cards {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 992px) {
+    .vap-page {
+        padding: 18px 14px;
+    }
+
+    .fuel-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .carousel img {
+        height: 280px;
+    }
+}
+
+@media (max-width: 576px) {
+    .fuel-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .fuel-card {
+        text-align: right;
+    }
+
+    .fuel-card i {
+        margin-bottom: 8px;
+    }
+
+    .carousel img {
+        height: 240px;
+    }
+} */
