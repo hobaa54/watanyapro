@@ -5,7 +5,8 @@ import { ALL_STATIONS } from '../cards.data'; // عدّل المسار حسب م
 
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Master' | 'Master2' | 'Loutas'
   | 'Sadat1' | 'Sadat2' | 'AirHosbital' | 'Rehab2' | 'Obour1' | 'Obour2' | 'October2' | 'October3'| 'October1'
-  |'October6' | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk1' |'Shorouk2' |'Alamin2';
+  |'October6' | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk1' |'Shorouk2' |'Alamin2' |'Alamin3' |'Giza1' | 'Giza2' | 'Giza3'
+  | 'Torism2' | 'Cairo4' | 'Cairo5' | 'Cairo6'; 
 
 
 @Component({
@@ -58,6 +59,14 @@ export class RestaurantComponent {
     if (id === 'Shorouk1') return '/app-shorouk1'; // عدّلها حسب route بتاع Zayed2
     if (id === 'Shorouk2') return '/app-shorouk2'; // عدّلها حسب route بتاع Zayed2
     if (id === 'Alamin2') return '/app-alamin2'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Alamin3') return '/app-alamin3'; // عدّلها حسب route بتاع Alamin3
+    if (id === 'Giza1') return '/app-giza1'; // عدّلها حسب route بتاع Giza1
+    if (id === 'Giza2') return '/app-giza2'; // عدّلها حسب route بتاع Giza2
+    if (id === 'Giza3') return '/app-giza3'; // عدّلها حسب route بتاع Giza3
+    if (id === 'Cairo4') return '/app-cairo4'; // عدّلها حسب route بتاع Cairo4
+    if (id === 'Cairo5') return '/app-cairo5'; // عدّلها حسب route بتاع Cairo5
+    if (id === 'Cairo6') return '/app-cairo6'; // عدّلها حسب route بتاع Cairo6
+    if (id === 'Torism2') return '/app-torism2'; // عدّلها حسب route بتاع Torism2
     return '/details';
   });
 
@@ -69,7 +78,8 @@ export class RestaurantComponent {
         || id === 'forest' || id === 'Master' || id === 'Master2' || id === 'Loutas' || id === 'Sadat1' || id === 'Sadat2' || id === 'AirHosbital'
         || id === 'Rehab2' || id === 'Obour1' || id === 'Obour2' || id === 'October2' || id === 'October3'
         || id === 'October1'|| id === 'October6' || id === 'October7' || id === 'Zayed1' ||
-         id === 'Zayed2'|| id=== 'Shorouk1' || id === 'Shorouk2' || id==='Alamin2'
+         id === 'Zayed2'|| id=== 'Shorouk1' || id === 'Shorouk2' || id==='Alamin2' || id==='Alamin3' || id==='Giza1' || id==='Giza2' || id==='Giza3'
+        || id === 'Torism2' || id === 'Cairo4' || id === 'Cairo5' || id === 'Cairo6'
       ) this.stationId.set(id);
     });
   }

@@ -1,7 +1,7 @@
 import { Component, computed, signal } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { ALL_STATIONS } from '../cards.data';
-type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest';
+type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' |'Cairo3';
 @Component({
   selector: 'app-clothes',
   standalone: true,
@@ -22,13 +22,16 @@ export class ClothesComponent {
     if (id === 'tagamo35') return '/app-tagamo3-5'; // عدّلها حسب route بتاع tirumph
     if (id === 'AUC') return '/app-auc-st'; // عدّلها حسب route بتاع AUC
     if (id === 'forest') return '/app-forest'; // عدّلها حسب route بتاع forest
+    if (id === 'Cairo3') return '/app-cairo3'; // عدّلها حسب route بتاع Cairo3
     return '/details';
   });
 
   constructor(private route: ActivatedRoute) {
     this.route.paramMap.subscribe(pm => {
       const id = pm.get('stationId');
-      if (id === 'rehab' || id === 'madinty' || id === 'tirumph' || id === 'tagamo35' || id === 'AUC' || id === 'forest') {
+      if (id === 'rehab' || id === 'madinty' || id === 'tirumph' || id === 'tagamo35' || id === 'AUC' || id === 'forest' || id === 'Cairo3'
+        
+      ) {
         this.stationId.set(id);
       }
     });

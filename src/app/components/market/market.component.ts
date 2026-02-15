@@ -6,7 +6,8 @@ import { ALL_STATIONS } from '../cards.data'; // عدّل المسار لو مخ
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Master' | 'Master2' | 'Academy' | 'Loutas'
   | 'Sadat1' | 'Sadat2' | 'AirHosbital' | 'Rehab2' | 'Obour1' | 'Obour2' | 'October2' | 'October3' | 'October1'
   | 'October4' | 'October5' | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk1' | 'Shorouk2' | 'Shorouk3' | 'Shorouk4' | 'Alamin1'
-  | 'Alamin2';
+  | 'Alamin2' | 'Alamin3' | 'Suez1' | 'Giza1' | 'Giza2' | 'Giza3' | 'GizaC1' | 'GizaC2' | 'GizaC3'
+  | 'Torism2'| 'Torism1' | 'RedSea' | 'Cairo1' | 'Cairo2' | 'Cairo3' | 'Cairo4' | 'Cairo5' | 'Cairo6';
 
 @Component({
   selector: 'app-market',
@@ -62,6 +63,23 @@ export class MarketComponent {
     if (id === 'Shorouk4') return '/app-shorouk4'; // عدّلها حسب route بتاع Zayed2
     if (id === 'Alamin1') return '/app-alamin1'; // عدّلها حسب route بتاع Zayed2
     if (id === 'Alamin2') return '/app-alamin2'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Alamin3') return '/app-alamin3'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Suez1') return '/app-suez1'; // عدّلها حسب route بتاع Suez1
+    if (id === 'Giza1') return '/app-giza1'; // عدّلها حسب route بتاع Giza1
+    if (id === 'Giza2') return '/app-giza2'; // عدّلها حسب route بتاع Giza2
+    if (id === 'Giza3') return '/app-giza3'; // عدّلها حسب route بتاع Giza3
+    if (id === 'GizaC1') return '/app-giza-c1'; // عدّلها حسب route بتاع GizaC1
+    if (id === 'GizaC2') return '/app-giza-c2'; // عدّلها حسب route بتاع GizaC2
+    if (id === 'GizaC3') return '/app-giza-c3'; // عدّلها حسب route بتاع GizaC3
+    if (id === 'Torism1') return '/app-torism1'; // عدّلها حسب route بتاع Torism1
+    if (id === 'Torism2') return '/app-torism2'; // عدّلها حسب route بتاع Torism2
+    if (id === 'RedSea') return '/app-red-sea'; // عدّلها حسب route بتاع RedSea
+    if (id === 'Cairo1') return '/app-cairo1'; // عدّلها حسب route بتاع Cairo1
+    if (id === 'Cairo2') return '/app-cairo2'; // عدّلها حسب route بتاع Cairo2
+    if (id === 'Cairo3') return '/app-cairo3'; // عدّلها حسب route بتاع Cairo3
+    if (id === 'Cairo4') return '/app-cairo4'; // عدّلها حسب route بتاع Cairo4
+    if (id === 'Cairo5') return '/app-cairo5'; // عدّلها حسب route بتاع Cairo5
+    if (id === 'Cairo6') return '/app-cairo6'; // عدّلها حسب route بتاع Cairo6
     return '/details';
   });
 
@@ -73,10 +91,13 @@ export class MarketComponent {
         || id === 'forest' || id === 'Master' || id === 'Master2' || id === 'Loutas'
         || id === 'Sadat1' || id === 'Sadat2' || id === 'AirHosbital' || id === 'Rehab2' || id === 'Obour1' || id === 'Obour2'
         || id === 'October2' || id === 'October3' || id === 'October1' || id === 'October4' || id === 'October5' || id === 'October7'
-        || id === 'Zayed1' || id === 'Zayed2' || id === 'Shorouk1' || id === 'Shorouk2' || id === 'Shorouk3' || id==='Shorouk4'
-        || id === 'Alamin1' || id==='Alamin2'
+        || id === 'Zayed1' || id === 'Zayed2' || id === 'Shorouk1' || id === 'Shorouk2' || id === 'Shorouk3' || id === 'Shorouk4'
+        || id === 'Alamin1' || id === 'Alamin2' || id === 'Alamin3' || id === 'Suez1' || id === 'Giza1' || id === 'Giza2' || id === 'Giza3'
+        || id === 'GizaC1' || id === 'GizaC2' || id === 'GizaC3' || id === 'Torism1' || id === 'Torism2' || id === 'RedSea'
+        || id === 'Cairo1' || id === 'Cairo2' || id === 'Cairo3' || id === 'Cairo4' || id === 'Cairo5' || id === 'Cairo6'
 
-      ) this.stationId.set(id);
+      )
+        this.stationId.set(id);
     });
   }
 }

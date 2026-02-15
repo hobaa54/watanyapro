@@ -3,7 +3,7 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Alamin2, ALL_STATIONS } from '../cards.data';
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Loutas' | 'Sadat1' |
-  'Obour2' | 'October2' | 'October1' | 'October6' | 'October7' |  'Alamin2';
+  'Obour2' | 'October2' | 'October1' | 'October6' | 'October7' |  'Alamin2' | 'Cairo1';
 
 @Component({
   selector: 'app-vap',
@@ -44,6 +44,7 @@ export class VapComponent {
     if (id === 'October6') return '/app-october6'; // عدّلها حسب route بتاع October2
     if (id === 'October7') return '/app-october7'; // عدّلها حسب route بتاع October2
     if (id === 'Alamin2') return '/app-alamin2'; // عدّلها حسب route بتاع Alamin2
+    if (id === 'Cairo1') return '/app-cairo1'; // عدّلها حسب route بتاع Cairo1
     return '/details';
   });
 

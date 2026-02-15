@@ -5,7 +5,7 @@ import { ALL_STATIONS, Tirumph } from '../cards.data';
 
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Master' | 'Academy' | 'Loutas'
   | 'Sadat1' | 'Sadat2' | 'AirHosbital' | 'Rehab2' | 'Obour2' | 'October2' | 'October1' | 'October3' | 'October6'
-  | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk3';
+  | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk3' |'Giza3' | 'Cairo3';
 
 @Component({
   selector: 'app-coffee',
@@ -52,6 +52,8 @@ export class CoffeeComponent {
     if (id === 'Zayed1') return '/app-zayed1'; // عدّلها حسب route بتاع Zayed1
     if (id === 'Zayed2') return '/app-zayed2'; // عدّلها حسب route بتاع Zayed2
     if (id === 'Shorouk3') return '/app-shorouk3'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Giza3') return '/app-giza3'; // عدّلها حسب route بتاع Giza3
+    if (id === 'Cairo3') return '/app-cairo3'; // عدّلها حسب route بتاع Cairo3
     return '/details';
   });
 
@@ -62,6 +64,7 @@ export class CoffeeComponent {
         || id === 'Master' || id === 'Academy' || id === 'Loutas' || id === 'Sadat1' || id === 'Sadat2' || id === 'AirHosbital' || id === 'Rehab2'
         || id === 'Obour2' || id === 'October2' || id === 'October1' || id === 'October3'
         || id === 'October6' || id === 'October7' || id === 'Zayed1' || id === 'Zayed2' || id === 'Shorouk3'
+        || id === 'Giza3' || id === 'Cairo3'
       ) {
         this.stationId.set(id);
       }

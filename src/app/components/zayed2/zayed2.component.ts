@@ -79,7 +79,7 @@ export const SERVICES2 = [
     icon: 'bi bi-basket-fill',
     route: '/market/Zayed2'
   },
-    {
+  {
     title: 'مجموعة محلات ',
     icon: 'fa-solid fa-leaf',
     route: '/shops/Zayed2'

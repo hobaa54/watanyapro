@@ -4,7 +4,7 @@ import { trigger, transition, style, animate } from '@angular/animations';
 import { ALL_STATIONS, Loutas } from '../cards.data'; // عدّل المسار لو مختلف
 
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Master' | 'Academy' | 'Loutas'
-  | 'Sadat1' | 'Obour1' | 'October2' | 'October3' | 'October4' | 'October5' | 'October6' | 'Zayed1' | 'Zayed2';
+  | 'Sadat1' | 'Obour1' | 'October2' | 'October3' | 'October4' | 'October5' | 'October6' | 'Zayed1' | 'Zayed2' |'Alamin3';
 
 @Component({
   selector: 'app-atm',
@@ -47,6 +47,7 @@ export class AtmComponent {
     if (id === 'October6') return '/app-october6'; // عدّلها حسب route بتاع October5
     if (id === 'Zayed1') return '/app-zayed1'; // عدّلها حسب route بتاع Zayed1
     if (id === 'Zayed2') return '/app-zayed2'; // عدّلها حسب route بتاع Zayed2
+    if (id === 'Alamin3') return '/app-alamin3'; // عدّلها حسب route بتاع Alamin3
     return '/details';
   });
   constructor(private route: ActivatedRoute) {
@@ -55,7 +56,7 @@ export class AtmComponent {
       if (id === 'rehab' || id === 'madinty' || id === 'tirumph' || id === 'tagamo35' || id === 'AUC' || id === 'forest'
         || id === 'Master' || id === 'Academy' || id === 'Loutas' || id === 'Sadat1'
         || id === 'Obour1' || id === 'October2' || id === 'October3' || id === 'October4'
-        || id === 'October5' || id === 'October6' || id === 'Zayed1'|| id==='Zayed2'
+        || id === 'October5' || id === 'October6' || id === 'Zayed1'|| id==='Zayed2' || id==='Alamin3'
       ) this.stationId.set(id);
     });
   }

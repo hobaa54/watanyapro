@@ -52,6 +52,32 @@ import { Shorouk4Component } from './components/shorouk4/shorouk4.component';
 import { NewAlameinComponent } from './components/new-alamein/new-alamein.component';
 import { Alamin1Component } from './components/alamin1/alamin1.component';
 import { Alamin2Component } from './components/alamin2/alamin2.component';
+import { Alamin3Component } from './components/alamin3/alamin3.component';
+import { Suez1Component } from './components/suez1/suez1.component';
+import { SuezDetailsComponent } from './components/suez-details/suez-details.component';
+import { Suez4Component } from './components/suez4/suez4.component';
+import { Suez3Component } from './components/suez3/suez3.component';
+import { Suez2Component } from './components/suez2/suez2.component';
+import { GezaDetailsComponent } from './components/geza-details/geza-details.component';
+import { Giza1Component } from './components/giza1/giza1.component';
+import { Giza2Component } from './components/giza2/giza2.component';
+import { Giza3Component } from './components/giza3/giza3.component';
+import { Giza2DetailsComponent } from './components/giza2-details/giza2-details.component';
+import { GizaC3Component } from './components/giza-c3/giza-c3.component';
+import { GizaC2Component } from './components/giza-c2/giza-c2.component';
+import { GizaC1Component } from './components/giza-c1/giza-c1.component';
+import { Torism2Component } from './components/torism2/torism2.component';
+import { Torism1Component } from './components/torism1/torism1.component';
+import { TorismComponent } from './components/torism/torism.component';
+import { RedSeaComponent } from './components/red-sea/red-sea.component';
+import { RedSeaDetailsComponent } from './components/red-sea-details/red-sea-details.component';
+import { CairoComponent } from './components/cairo-details/cairo.component';
+import { Cairo6Component } from './components/cairo6/cairo6.component';
+import { Cairo1Component } from './components/cairo1/cairo1.component';
+import { Cairo5Component } from './components/cairo5/cairo5.component';
+import { Cairo4Component } from './components/cairo4/cairo4.component';
+import { Cairo3Component } from './components/cairo3/cairo3.component';
+import { Cairo2Component } from './components/cairo2/cairo2.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -65,6 +91,13 @@ export const routes: Routes = [
     { path: 'app-zayed-details', component: ZayedDetailsComponent, title: 'ZayedDetails' },
     { path: 'app-elshorouk-details', component: ElshoroukDetailsComponent, title: 'ElshoroukDetails' },
     { path: 'app-new-alamein', component: NewAlameinComponent, title: 'NewAlamein' },
+    { path: 'app-geza-details', component: GezaDetailsComponent, title: 'GezaDetails' },
+    { path: 'app-suez-details', component: SuezDetailsComponent, title: 'SuezDetails' },
+    { path: 'app-giza2-details', component: Giza2DetailsComponent, title: 'Giza2Details' },
+    { path: 'app-red-sea-details', component: RedSeaDetailsComponent, title: 'RedSeaDetails' },
+    { path: 'app-cairo', component: CairoComponent, title: 'CairoDetails' },
+    
+    { path: 'app-torism', component: TorismComponent, title: 'Torism' },
     //!Stations
     { path: 'app-rehab-details', component: RehabDetailsComponent, title: 'rehab' },
     { path: 'app-madinty', component: MadintyComponent, title: 'madinty' },
@@ -98,6 +131,26 @@ export const routes: Routes = [
     { path: 'app-shorouk4', component: Shorouk4Component, title: 'Shorouk4' },
     { path: 'app-alamin1', component: Alamin1Component, title: 'Alamin1' },
     { path: 'app-alamin2', component: Alamin2Component, title: 'Alamin2' },
+    { path: 'app-alamin3', component: Alamin3Component, title: 'Alamin3' },
+    { path: 'app-suez1', component: Suez1Component, title: 'Suez1' },
+    { path: 'app-suez2', component: Suez2Component, title: 'Suez2' },
+    { path: 'app-suez3', component: Suez3Component, title: 'Suez3' },
+    { path: 'app-suez4', component: Suez4Component, title: 'Suez4' },
+    { path: 'app-giza1', component: Giza1Component, title: 'Giza1' },
+    { path: 'app-giza2', component: Giza2Component, title: 'Giza2' },
+    { path: 'app-giza3', component: Giza3Component, title: 'Giza3' },
+    { path: 'app-giza-c1', component: GizaC1Component, title: 'GizaC1' },
+    { path: 'app-giza-c2', component: GizaC2Component, title: 'GizaC2' },
+    { path: 'app-giza-c3', component: GizaC3Component, title: 'GizaC3' },
+    { path: 'app-torism2', component: Torism2Component, title: 'Torism2' },
+    { path: 'app-torism1', component: Torism1Component, title: 'Torism1' },
+    { path: 'app-red-sea', component: RedSeaComponent, title: 'RedSea' },
+    { path: 'app-cairo1', component: Cairo1Component, title: 'Cairo1' },
+    { path: 'app-cairo2', component: Cairo2Component, title: 'Cairo2' },
+    { path: 'app-cairo3', component: Cairo3Component, title: 'Cairo3' },
+    { path: 'app-cairo4', component: Cairo4Component, title: 'Cairo4' },
+    { path: 'app-cairo5', component: Cairo5Component, title: 'Cairo5' },
+    { path: 'app-cairo6', component: Cairo6Component, title: 'Cairo6' },
 
     // Route واحد للجاز وبـ stationId
     { path: 'gaz/:stationId', component: GazComponent, title: 'gaz' },
