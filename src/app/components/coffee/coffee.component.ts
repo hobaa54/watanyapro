@@ -5,7 +5,8 @@ import { ALL_STATIONS, Tirumph } from '../cards.data';
 
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Master' | 'Academy' | 'Loutas'
   | 'Sadat1' | 'Sadat2' | 'AirHosbital' | 'Rehab2' | 'Obour2' | 'October2' | 'October1' | 'October3' | 'October6'
-  | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk3' |'Giza3' | 'Cairo3';
+  | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk3' | 'Giza3' | 'Cairo3' | 'Cairo12' | 'Cairo17' | 'Cairo35'
+  |'Qalyub3' | 'Qalyub4' | 'Qalyub5' | 'Qalyub6' | 'Qalyub7';
 
 @Component({
   selector: 'app-coffee',
@@ -54,6 +55,14 @@ export class CoffeeComponent {
     if (id === 'Shorouk3') return '/app-shorouk3'; // عدّلها حسب route بتاع Zayed2
     if (id === 'Giza3') return '/app-giza3'; // عدّلها حسب route بتاع Giza3
     if (id === 'Cairo3') return '/app-cairo3'; // عدّلها حسب route بتاع Cairo3
+    if (id === 'Cairo12') return '/app-cairo12';  // عدّلها حسب route بتاع Cairo12
+    if (id === 'Cairo17') return '/app-cairo17';  // عدّلها حسب route بتاع Cairo17
+    if (id === 'Cairo35') return '/app-cairo35';   // عدّلها حسب route بتاع Cairo35
+    if (id === 'Qalyub4') return '/app-qalyub4';   // عدّلها حسب route بتاع Qalyub4
+    if (id === 'Qalyub5') return '/app-qalyub5';   // عدّلها حسب route بتاع Qalyub5
+    if (id === 'Qalyub6') return '/app-qalyub6';   // عدّلها حسب route بتاع Qalyub6
+    if (id === 'Qalyub7') return '/app-qalyub7';   // عدّلها حسب route بتاع Qalyub7
+
     return '/details';
   });
 
@@ -64,7 +73,7 @@ export class CoffeeComponent {
         || id === 'Master' || id === 'Academy' || id === 'Loutas' || id === 'Sadat1' || id === 'Sadat2' || id === 'AirHosbital' || id === 'Rehab2'
         || id === 'Obour2' || id === 'October2' || id === 'October1' || id === 'October3'
         || id === 'October6' || id === 'October7' || id === 'Zayed1' || id === 'Zayed2' || id === 'Shorouk3'
-        || id === 'Giza3' || id === 'Cairo3'
+        || id === 'Giza3' || id === 'Cairo3' || id === 'Cairo12' || id === 'Cairo17' || id === 'Cairo35' || id === 'Qalyub4' || id === 'Qalyub5' || id === 'Qalyub6' || id === 'Qalyub7'
       ) {
         this.stationId.set(id);
       }

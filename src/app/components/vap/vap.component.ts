@@ -3,7 +3,8 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Alamin2, ALL_STATIONS } from '../cards.data';
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Loutas' | 'Sadat1' |
-  'Obour2' | 'October2' | 'October1' | 'October6' | 'October7' |  'Alamin2' | 'Cairo1';
+  'Obour2' | 'October2' | 'October1' | 'October6' | 'October7' |  'Alamin2' | 'Cairo1' | 'Cairo2' | 'Cairo3' | 'Cairo4' | 'Cairo5' | 'Cairo6' | 'Cairo7' | 'Cairo8' | 'Cairo9' | 'Cairo10'
+   | 'Cairo11' | 'Cairo12';
 
 @Component({
   selector: 'app-vap',
@@ -45,6 +46,17 @@ export class VapComponent {
     if (id === 'October7') return '/app-october7'; // عدّلها حسب route بتاع October2
     if (id === 'Alamin2') return '/app-alamin2'; // عدّلها حسب route بتاع Alamin2
     if (id === 'Cairo1') return '/app-cairo1'; // عدّلها حسب route بتاع Cairo1
+    if (id === 'Cairo2') return '/app-cairo2'; // عدّلها حسب route بتاع Cairo2
+    if (id === 'Cairo3') return '/app-cairo3'; // عدّلها حسب route بتاع Cairo3
+    if (id === 'Cairo4') return '/app-cairo4'; // عدّلها حسب route بتاع Cairo4
+    if (id === 'Cairo5') return '/app-cairo5'; // عدّلها حسب route بتاع Cairo5
+    if (id === 'Cairo6') return '/app-cairo6'; // عدّلها حسب route بتاع Cairo6
+    if (id === 'Cairo7') return '/app-cairo7'; // عدّلها حسب route بتاع Cairo7
+    if (id === 'Cairo8') return '/app-cairo8'; // عدّلها حسب route بتاع Cairo8
+    if (id === 'Cairo9') return '/app-cairo9'; // عدّلها حسب route بتاع Cairo9
+    if (id === 'Cairo10') return '/app-cairo10'; // عدّلها حسب route بتاع Cairo10
+    if (id === 'Cairo11') return '/app-cairo11'; // عدّلها حسب route بتاع Cairo11
+    if (id === 'Cairo12') return '/app-cairo12'; // عدّلها حسب route بتاع Cairo12
     return '/details';
   });
 

@@ -13523,12 +13523,9785 @@ export const Cairo6 = [
         },
     }
 ];
+export const Cairo7 = [
+    {
+        id: 'Cairo7', // ✅ كان رقم
+        name: 'محافظة القاهرة 7 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo7' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo8 = [
+    {
+        id: 'Cairo8', // ✅ كان رقم
+        name: 'محافظة القاهرة 8 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo8' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن السيارات الكهربائيه', desc: 'شحن كهرباء' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'خدمات سيارات BMW', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy0fhTFmjWTudogPmvnqy5mPyx3Q1Up0ZbgQ&s', title: 'بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRddm5z8rXSKEpmQhDfHMFJ-XOQf8mgpqS-Dw&s', title: 'بنك ابو ظبي التجاري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo9 = [
+    {
+        id: 'Cairo9', // ✅ كان رقم
+        name: 'محافظة القاهرة 9 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo9' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'سي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo10 = [
+    {
+        id: 'Cairo10', // ✅ كان رقم
+        name: 'محافظة القاهرة 10 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo10' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo11 = [
+    {
+        id: 'Cairo11', // ✅ كان رقم
+        name: 'محافظة القاهرة 11 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo11' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن السيارات الكهربائيه', desc: 'مناسب لجميع السيارات الكهربائية' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiojdmEIVmTKaK7tqt5GJG3A1Msv4lgpVweg&s',
+                    name: 'Master Express',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'ملعب تنس', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع حاسب الي ومحمول ملحقاتهما', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'حلواني ايتوال', desc: '' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo12 = [
+    {
+        id: 'Cairo12', // ✅ كان رقم
+        name: 'محافظة القاهرة 12 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo12' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'عصائر وكافيه', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Market Traffic',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo13 = [
+    {
+        id: 'Cairo13', // ✅ كان رقم
+        name: 'محافظة القاهرة 13 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo13' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'عصائر وكافيه', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+                { icon: 'fa-solid fa-star', title: 'مركز شحن السيارات الكهربائيه', desc: 'خدمات سيارات الكهرباء' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Market Traffic',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo14 = [
+    {
+        id: 'Cairo14', // ✅ كان رقم
+        name: 'محافظة القاهرة 14 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo14' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'عصائر وكافيه', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Market Sofia',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo15 = [
+    {
+        id: 'Cairo15', // ✅ كان رقم
+        name: 'محافظة القاهرة 15 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo15' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'عصائر وكافيه', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo16 = [
+    {
+        id: 'Cairo16', // ✅ كان رقم
+        name: 'محافظة القاهرة 16 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo16' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'عصائر وكافيه', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Market Sofia',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'اجهزه كهربائيه ومنزليه واكترونيه', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بيع لعب اطفال ', desc: '' },
+                { icon: 'fa-solid fa-battery-full', title: 'بي تك بيع أجهزة كهربائيه', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo17 = [
+    {
+        id: 'Cairo17', // ✅ كان رقم
+        name: 'محافظة القاهرة 17 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo17' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/KFC_logo.svg/1280px-KFC_logo.svg.png",
+                    name: "KFC",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'Trade Line Store', desc: 'بيع حاسب الى ومحمول وملحقاتهما' },
+                { icon: 'fa-solid fa-battery-full', title: 'كشك عصائر', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo18 = [
+    {
+        id: 'Cairo18', // ✅ كان رقم
+        name: 'محافظة القاهرة 18 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo18' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://images.deliveryhero.io/image/talabat/restaurants/Logo_1638351214566061619.jpg?width=180',
+                    name: 'Master on the go',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'Trade Line Store', desc: 'بيع حاسب الى ومحمول وملحقاتهما' },
+                { icon: 'fa-solid fa-battery-full', title: 'كشك عصائر', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo19 = [
+    {
+        id: 'Cairo19', // ✅ كان رقم
+        name: 'محافظة القاهرة 19 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo19' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/KFC_logo.svg/1280px-KFC_logo.svg.png",
+                    name: "KFC",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Daily_logo.svg/960px-Daily_logo.svg.png',
+                    name: 'Daily Market',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'Trade Line Store', desc: 'بيع حاسب الى ومحمول وملحقاتهما' },
+                { icon: 'fa-solid fa-battery-full', title: 'كشك عصائر', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo20 = [
+    {
+        id: 'Cairo20', // ✅ كان رقم
+        name: 'محافظة القاهرة 20 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo20' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/KFC_logo.svg/1280px-KFC_logo.svg.png",
+                    name: "KFC",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Daily_logo.svg/960px-Daily_logo.svg.png',
+                    name: 'Daily Market',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'Trade Line Store', desc: 'بيع حاسب الى ومحمول وملحقاتهما' },
+                { icon: 'fa-solid fa-battery-full', title: 'كشك عصائر', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo21 = [
+    {
+        id: 'Cairo21', // ✅ كان رقم
+        name: 'محافظة القاهرة 21 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo21' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/KFC_logo.svg/1280px-KFC_logo.svg.png",
+                    name: "KFC",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-battery-full', title: 'مكملات ومواد غذائيه', desc: 'مكملات غذائية متنوعة' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo22 = [
+    {
+        id: 'Cairo22', // ✅ كان رقم
+        name: 'محافظة القاهرة 22 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo22' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: "https://upload.wikimedia.org/wikipedia/ar/thumb/b/bf/KFC_logo.svg/1280px-KFC_logo.svg.png",
+                    name: "KFC",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo23 = [
+    {
+        id: 'Cairo23', // ✅ كان رقم
+        name: 'محافظة القاهرة 23 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo23' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'Creazy car ', desc: 'مغسله سيارات' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://bazookaegy.com/public/uploads/resturantes/s_1696848769358054.png',
+                    name: ' BAZOOKA',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjtH_SL0usg7p7-egQF2LDXSu8-R08iqwB-w&s',
+                    name: ' WIMPY restaurant',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo24 = [
+    {
+        id: 'Cairo24', // ✅ كان رقم
+        name: 'محافظة القاهرة 24 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo24' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات وتوكيل تويوتا', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'مقر شحن السيارات الكهربائيه ', desc: '' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://bazookaegy.com/public/uploads/resturantes/s_1696848769358054.png',
+                    name: ' BAZOOKA',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjtH_SL0usg7p7-egQF2LDXSu8-R08iqwB-w&s',
+                    name: ' WIMPY restaurant',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo25 = [
+    {
+        id: 'Cairo25', // ✅ كان رقم
+        name: 'محافظة القاهرة 25 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo25' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات وتوكيل تويوتا', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'مقر شحن السيارات الكهربائيه ', desc: '' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://bazookaegy.com/public/uploads/resturantes/s_1696848769358054.png',
+                    name: ' BAZOOKA',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjtH_SL0usg7p7-egQF2LDXSu8-R08iqwB-w&s',
+                    name: ' WIMPY restaurant',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo26 = [
+    {
+        id: 'Cairo26', // ✅ كان رقم
+        name: 'محافظة القاهرة 26 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo26' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات وتوكيل تويوتا', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'مقر شحن السيارات الكهربائيه ', desc: '' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://bazookaegy.com/public/uploads/resturantes/s_1696848769358054.png',
+                    name: ' BAZOOKA',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjtH_SL0usg7p7-egQF2LDXSu8-R08iqwB-w&s',
+                    name: ' WIMPY restaurant',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo27 = [
+    {
+        id: 'Cairo27', // ✅ كان رقم
+        name: 'محافظة القاهرة 27 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo27' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات وتوكيل تويوتا', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'مقر شحن السيارات الكهربائيه ', desc: '' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://bazookaegy.com/public/uploads/resturantes/s_1696848769358054.png',
+                    name: ' BAZOOKA',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjtH_SL0usg7p7-egQF2LDXSu8-R08iqwB-w&s',
+                    name: ' WIMPY restaurant',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo28 = [
+    {
+        id: 'Cairo28', // ✅ كان رقم
+        name: 'محافظة القاهرة 28 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo28' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات وتوكيل تويوتا', desc: '' },
+                { icon: 'fa-solid fa-car-side', title: 'مقر شحن السيارات الكهربائيه ', desc: '' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKExACyN2hk5yHGp-r1z86HinBmJLAHNjJnQ&s',
+                    name: ' Heart Attack',
+                    desc: 'اشهي فرايد تشيكين في الوطن العربي'
+                },
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://bazookaegy.com/public/uploads/resturantes/s_1696848769358054.png',
+                    name: ' BAZOOKA',
+                    desc: 'أصل الفرايد اتشيكينج المقرمشة والبرجر الشهي'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3K-_i0NN98DJj6KRhi3tc9NNpVYX0hscMrQ&s',
+                    name: ' كشري التحرير',
+                    desc: 'أصل الكشري في مصر'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Traffic Market',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo29 = [
+    {
+        id: 'Cairo29', // ✅ كان رقم
+        name: 'محافظة القاهرة 29 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo29' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات وتوكيل تويوتا', desc: '' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3K-_i0NN98DJj6KRhi3tc9NNpVYX0hscMrQ&s',
+                    name: ' كشري التحرير',
+                    desc: 'أصل الكشري في مصر'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: 'البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo30 = [
+    {
+        id: 'Cairo30', // ✅ كان رقم
+        name: 'محافظة القاهرة 30 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo30' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'معرض سيارات ', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'شحن سيارات كهربائية', desc: '' },
+                { icon: 'fa-solid fa-star', title: 'مركز صيانة وبيع قطع غيار السيارات', desc: 'خدمات سيارات سولار' },
+                { icon: 'fa-solid fa-star', title: 'شاشات واكسسوارات سيارات', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3K-_i0NN98DJj6KRhi3tc9NNpVYX0hscMrQ&s',
+                    name: ' كشري التحرير',
+                    desc: 'أصل الكشري في مصر'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/ar/b/b7/QNB_LOGO.png', title: ' بنك قطر الوطنى الاهلى ', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo31 = [
+    {
+        id: 'Cairo31', // ✅ كان رقم
+        name: 'محافظة القاهرة 31 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo31' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'شحن سيارات كهربائية', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3K-_i0NN98DJj6KRhi3tc9NNpVYX0hscMrQ&s',
+                    name: ' كشري التحرير',
+                    desc: 'أصل الكشري في مصر'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Master Express',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/ar/b/b7/QNB_LOGO.png', title: ' بنك قطر الوطنى الاهلى ', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo32 = [
+    {
+        id: 'Cairo32', // ✅ كان رقم
+        name: 'محافظة القاهرة 32 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo32' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'شحن سيارات كهربائية', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3K-_i0NN98DJj6KRhi3tc9NNpVYX0hscMrQ&s',
+                    name: ' كشري التحرير',
+                    desc: 'أصل الكشري في مصر'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/ar/b/b7/QNB_LOGO.png', title: ' بنك قطر الوطنى الاهلى ', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'ملعب بادل تنس', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'ملعب كره قدم', desc: '' },
+                { icon: 'fa-regular fa-futbol', title: 'مبنى خدمى للملاعب', desc: '' },
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo33 = [
+    {
+        id: 'Cairo33', // ✅ كان رقم
+        name: 'محافظة القاهرة 33 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo33' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مركز خدمة وتوكيل شركة سوزوكي', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3K-_i0NN98DJj6KRhi3tc9NNpVYX0hscMrQ&s',
+                    name: ' كشري التحرير',
+                    desc: 'أصل الكشري في مصر'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: 'كشك لجميع خدمات البريد ', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/ar/b/b7/QNB_LOGO.png', title: ' بنك قطر الوطنى الاهلى ', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'محلات جلود وملابس', desc: '' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo34 = [
+    {
+        id: 'Cairo34', // ✅ كان رقم
+        name: 'محافظة القاهرة 34 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo34' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مركز خدمة وتوكيل شركة سوزوكي', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'Trade Line Stores', desc: 'بيع حاسب آلي ومحمول' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Cairo35 = [
+    {
+        id: 'Cairo35', // ✅ كان رقم
+        name: 'محافظة القاهرة 35 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Cairo35' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مركز خدمة وتوكيل شركة سوزوكي', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://logolook.net/wp-content/uploads/2021/01/Second-Cup-Logo-2006-2015.png',
+                    name: ' Second cup',
+                    desc: 'اشهي الاطباق المصريه والعالميه'
+                },
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'data:image/png;base64,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',
+                    name: ' dominos pizza',
+                    desc: 'جميع أنواع البيتزا والمعجنات'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' العاب رياضية ( جمنازيوم )', desc: 'ألعاب رياضية متنوعة لجميع الأعمار.' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Qalyub1 = [
+    {
+        id: 'Qalyub1', // ✅ كان رقم
+        name: 'محافظة القليوبية 1 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Qalyub1' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مركز خدمة وتوكيل شركة سوزوكي', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://logolook.net/wp-content/uploads/2021/01/Second-Cup-Logo-2006-2015.png',
+                    name: ' Second cup',
+                    desc: 'اشهي الاطباق المصريه والعالميه'
+                },
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS0AAACnCAMAAABzYfrWAAAAwFBMVEX///8MapPpKUQAZ5EAXIoAY44AYo4AWokAYI0AZpGcuMr2+vwAV4fpJkKnwNC+0t2wxdOTs8bP3+fnACfoFTfu9PfK2uPg6/BIgaPo8PT4yM373uFjk68weJ385unoGTr32NzoCzJ/pLvsXW3rTmD84+Zym7VTiah8orrsa3rtYHD4ys/sVmf+9/j0o6sncJfxiJPylZ/mAB/veYX3u8HqNEz0oarqR1vuaHf1rLTqPFIATYFLhaWSuc59rsa1z96DYBpJAAAK9klEQVR4nO2diZabOBaGodiEwWZJGXAHxmUmMSSdjLNMT3e6XFPv/1bNohUEphzbJJH+nJPElmyJj6urKwHXiiIlJSU1Tb99+vyvufvw0+jdq+39l9/m7sVPone7u0qvJK4pend/dydxTRSCJXFN0F8YlsR1UjQsieuEWFgS16i6sCSuEb3vwZK4BvVvDiyJa0A8y5K4BsS3LImLqyHLanD9PnfvfjANW5bE1dM4LImL0SlYEhel07AkLqwpsCQuqGmwJK5GHybCkriU6ZbV4BI9TP2wnQ5LeFwDsJbb7VLi6ooLa7l79eHrp/e7HQ+YwLi4sLbbbx+b0v/+wXNpwuJ6w4X14SOu8HUncSHxYb2hq3yS1gXFhbXcfmQqfZC+qxEX1t39/9har1/xagmHiw/rbte9teZPbiQhGK4BWMs/uxU/8St+eTtHr2fS0Npw+b5b8xu/5vbdHN2eSW8HQvXlX92aA7T6RvgrawDX8k234mf+SNx+naPXcyjzqr/e3nNxdQKIysHxjfCLIDdaOplhRcoQrt03tjY/gli+epij67dXBUtVG1yvebiWf7DV3/OQigUL4uL6Lnay+w9voSgaLFXVB63rnvLfEpZ6EtffMFB/eM+FtXuY8QhuKCezVawR37Vbvvv8+dPfO+6yWxjLOlCwxnDVG833AwHZ7mHmo7iROrBGcQ1puXs992HcRj1YZ+ASGRbE9cC9WiE4LK0P64XWJTosGEhMs67lveiwxuIuCet8XBIWPRhP4FpuBdlaPgFrknUt7wWBtT4Fa4J1CWNZE2CdxCVh8XANBBLLrSDbymuVE8G/EJeE9QJcEtYLcAkEa5LPGsW1XIoHS9NsjUtOM0xbG8ElICzbOqT7NNHNLitgFnmwT4AxhEtAWHoaNu9scsDYl2YsnLag1Pm4xIGFB5jl4zdj2pHZ2QYXeICHS0RYHvW2Q2hpB4cqCJF1AYJLQFhmwBRgKqoVMgVBz7qWd6LAIhMgcNiiFJZoKfu+Q1x/i2srimUpBJa97xQhD9VsyNPK2avYv4tiWUpAQgXd65StIS2zY3OKp6sMLmFUkPVOxztVggWH7vvEowmGKye25Z5FS7O7lvcLa22dHold7688AwpWfKuu/ggKMS4j7xRF+sBgK20Ca6MIJTKstE5Jag9EEGQFrgoGi7IuwEan8VB0in2dgLAo62L8PH2xzF5TBTh+EBIWvfIjjn6dUatqTSW+3MewNCFhUbj0fYtlHRjsjg3I24KwAJigoLAoXLaelHlegN5uoGFlaVmoui1hMTOjTW0oM/al2STwFxoWG5+fluCwXoZLeFh0VC9hTdBU65KwGk3DJWFBTcFlS1hIp32XhEUpOmFdEhajaNS6JKyOxnBJWD0N47LV9emPi6YhXBIWV3xXbx8kLK54uDQJa0j9wShhjahrXRLWqFjrkrBOiLYuCGtTyakirrVAF/OniuBClpUmWbp6dBQ1OPFREYVwkWHoLRS/8OLjYtZ+/aBqcVE+67mitShXK2lbPEW6oQHKwT8Hiu+XaSRpcRWXKT3q6pHoeUEoR6KUlJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUeNrkSbb/ngf2vfS476YJ+FXlu6amGe7q7C9ILE3T3G42mBsqJtpsrnsjTOy290j0U25M1L59htaa7bK347oWJd08FOXqSsktUPYDuzjv84i2al62X9PldB9Z1TQbuGp+jRvV8AP92nkm7KPHs/vZc26kHq1WhptfflAe0LefmcZmhTOezeXoB2hVvMyLd6lAmcyS8z4foxs1e8m9bqVBWpUzvvRdMR48Wiov48tUwIxn1lx3ZY7Quvzck1tVa5p1dgTgHJocodqZs8T3a4yW6p5rBEPyMx1k3/Oli6TqrzVbQio656ZdiU0gfPl+fW9EFwLVnS+Yp2gVaaUiMy0q30VG1w3zo6nrRhHc6ty2DZpUgyGwUWavKNgfs6TYB97tbsunaOEepVRCRHIeo8xt89RopnvEAc8mbBXVNhMv0oOhZTl6IDHMi+yQ4IWd15yPSvVYXEfwk/Wxrv3ymCT7BfMkY5igBg3c4ME9NmycHFhGNRAqGZaVrBqLfX56uvJkSdEiY+TZ6htX6dL5j1yU0231aOn1n8dI2aRuk5+lOrhmeoiSellYRbu62h7ESm+Pr8nZ5T02n7MePWW9d0FTYrp70omcbbBs3tw8N/9EbM4cDejVGVqvnlar686WXFp4rq+MCw6CDKiMAJyXfNhtK/SoEayX7NG6DS4UXTb5d1FGLhBF1AdNDQ2rXoNH0r3QVbuqTlD8/P/nK49KPi2lROfObDcMyC+U4t6nDC3wxDzj40YB84iU4QzRMtmKyJiTXsIlk8QNnF9MqDPyPUWrp6vCGqK1QcfeJsvNQb9/1oKmpXaPjsWr+0O0OhVhnB5wHnbUUfjnk1RWlcz6CEDTmfDa088ALSVBq5T6XMd9y6/krmla42qSLvJpdWSUww3CSWAPbcvcx3EcBpmukSlqHlo44Wad5jXFmwembmEza7J3UrQ0m83tplKxm3Yco2Wb5JPNIpI0CHQLt2C0nh6tN/EMFCaP528wXoRWgAcIlQ3WOKzieKUhkIChpWf7IKVGrK4mGf4xg4bBAC2glkFwMKiaDjIt4+DHsY9/2UVvu4hYmjiOufJUeJJWTtFC+0o2nJZQLsXaxWBaVjO34y2oNlJbo02aEVowByge+gnVIHTsiU19J5VVW0/KssyvtXnJ0RAtnCf+QPkJWLZ2yVEjWmgXBpmB0TJY0MVcWho8BfhRvapm3mnQ0ZkvjUk4WK3VTOAat9p6HqKF3qxP71Gj+6pglHZJaNkwXMV2144SZCXDtABcZDsWqYkaxGmN4flCCXrz7gwBjNvseA3QwuOkPjJIAODNAzgU7JTQQr/4gLKpW22YeJoWTuiMUhZnnAahieKtGmZh0ejsKyMv0gAt/GZtI7DzJp54oFPT9hQtuHWIRjDMAT6BVsg2WdOCPszE25FwziHJn72D1UmuepMYgk+rwD6+jpHhtRqyCXcgIwXRMjq09BfTOhBa8EvIjnRGhj5SmGeWBQwc1uu3CCI4exBKTNY5zelF0QT6MZoV5XJ6tmWfa1sULdxgu4bGwTtgiTihH+xt1MItNlQpWlFY/fFXeUY5hWZWwsnbrKa3AYqG6ti6Z1uXoIVXze3qaoHad3GscCRe3Tfw564uilZz9RWYtD+A1xvwa2AWBcBJl+v+dW1rfz4tKkInDYKiMJkGG+XALbBbh4W935a4Lq2+TOhVVyREp1YzzcDs2tZlaPkkRKAa1OHAVCK33vHKFpWprb0MelVqR2cWWib2srwfd23P9HVsa6TBWpCPWd+UoKNJ+BYR6ggtav+NtyfQRlRDtmW+mFZG0+I1iLYglLS32Vb39ha788O0XGq6Vrxe76HH7dpWaVyEVjPYOg2iis+PvN5e+mIeVwO0NLSXjhS5zIalDeD01LWtS9Gq5kWmZ7ZOgvWF3tucvPh1db54tDTTOvRivfWR8NLcFIWyQ7ZlfC8tZV0QXppb0CsNZ2FTe/n9U3s1OVXIgGSapm65lj1wwTBMLReY1ZIf/RhnLd8yG+mIlt68NFAs77ZfDRpa8EVzx4AHX+ABloG2E4deg5aV9laBUam6lmnUpe7xJqOwlrOgtPK9KB7bWAv9qg7T8zCAgmfXQ69hMfpqn35R142D9v8B8t0r1Am2wVWnQaJN5C+ChR/KxF5SUj+7/gEkSNI9/guNfAAAAABJRU5ErkJggg==',
+                    name: ' dominos pizza',
+                    desc: 'جميع أنواع البيتزا والمعجنات'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/ar/b/b7/QNB_LOGO.png', title: ' بنك قطر الوطنى الاهلى ', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' العاب رياضية ( جمنازيوم )', desc: 'ألعاب رياضية متنوعة لجميع الأعمار.' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Qalyub2 = [
+    {
+        id: 'Qalyub2', // ✅ كان رقم
+        name: 'محافظة القليوبية 2 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Qalyub2' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://logolook.net/wp-content/uploads/2021/01/Second-Cup-Logo-2006-2015.png',
+                    name: ' Second cup',
+                    desc: 'اشهي الاطباق المصريه والعالميه'
+                },
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'data:image/png;base64,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',
+                    name: ' dominos pizza',
+                    desc: 'جميع أنواع البيتزا والمعجنات'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Master On The Go',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/ar/b/b7/QNB_LOGO.png', title: ' بنك قطر الوطنى الاهلى ', desc: 'جميع المعاملات البنكية الأساسية.' },
+
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' العاب رياضية ( جمنازيوم )', desc: 'ألعاب رياضية متنوعة لجميع الأعمار.' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Qalyub3 = [
+    {
+        id: 'Qalyub3', // ✅ كان رقم
+        name: 'محافظة القليوبية 3 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Qalyub3' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مركز خدمة وتوكيل شركة سوزوكي', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://logolook.net/wp-content/uploads/2021/01/Second-Cup-Logo-2006-2015.png',
+                    name: ' Second cup',
+                    desc: 'اشهي الاطباق المصريه والعالميه'
+                },
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'data:image/png;base64,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',
+                    name: ' dominos pizza',
+                    desc: 'جميع أنواع البيتزا والمعجنات'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Circle K',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' ملعب كرة قدم', desc: 'ألعاب رياضية متنوعة لجميع الأعمار.' },
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: '  ملعب كرة قدم ويوجد كافيه', desc: '' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Qalyub4 = [
+    {
+        id: 'Qalyub4', // ✅ كان رقم
+        name: 'محافظة القليوبية 4 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Qalyub4' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مركز لجميع خدمات السيارات', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://logolook.net/wp-content/uploads/2021/01/Second-Cup-Logo-2006-2015.png',
+                    name: ' Second cup',
+                    desc: 'اشهي الاطباق المصريه والعالميه'
+                },
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'data:image/png;base64,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',
+                    name: ' dominos pizza',
+                    desc: 'جميع أنواع البيتزا والمعجنات'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Master On The Go',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-child', title: ' بيع لعب أطفال', desc: 'العاب مختلفه ومتنوعه لجميع الاعمار' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Qalyub5 = [
+    {
+        id: 'Qalyub5', // ✅ كان رقم
+        name: 'محافظة القليوبية 5 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Qalyub5' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مركز خدمة وتوكيل شركة سوزوكي', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://brandlogos.net/wp-content/uploads/2023/12/circle_k-logo_brandlogos.net_lzrvx.png',
+                    name: 'Master On The Go',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: 'مشروبات وايس كريم', desc: '' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Qalyub6 = [
+    {
+        id: 'Qalyub6', // ✅ كان رقم
+        name: 'محافظة القليوبية 6 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Qalyub6' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن سيارات كهربائيه', desc: 'شحن سريع وموفر للبيئه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'اكسبريس كافيه', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+                { icon: 'fa-solid fa-mug-hot', title: 'ZED COFFEE', desc: 'كافيه وعصائر مميزة' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مركز لجميع خدمات السيارات', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://logolook.net/wp-content/uploads/2021/01/Second-Cup-Logo-2006-2015.png',
+                    name: ' Second cup',
+                    desc: 'اشهي الاطباق المصريه والعالميه'
+                },
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+                {
+                    logo: 'data:image/png;base64,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',
+                    name: ' dominos pizza',
+                    desc: 'جميع أنواع البيتزا والمعجنات'
+                },
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: '',
+                    name: 'ماركت أولاد رجب',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' ملعب كرة قدم', desc: 'ألعاب رياضية متنوعة لجميع الأعمار.' },
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: '  ملعب كرة قدم ويوجد كافيه', desc: '' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Qalyub7 = [
+    {
+        id: 'Qalyub7', // ✅ كان رقم
+        name: 'محافظة القليوبية 7 ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Qalyub7' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لجميع خدمات السيارات', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: '',
+                    name: ' مطعم سيكترا',
+                    desc: 'اشهي الاطباق المصريه والعالميه'
+                },
+
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: '',
+                    name: 'ماركت أولاد رجب',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' ملعب كرة قدم', desc: 'ألعاب رياضية متنوعة لجميع الأعمار.' },
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: '  ملعب كرة قدم ويوجد كافيه', desc: '' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Mnofya1 = [
+    {
+        id: 'Mnofya1', // ✅ كان رقم
+        name: 'محافظة المنوفيه ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Mnofya1' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن السيارات الكهربائيه', desc: 'شحن سريع للسيارات الكهربائيه الحديثه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لجميع خدمات السيارات', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3K-_i0NN98DJj6KRhi3tc9NNpVYX0hscMrQ&s',
+                    name: ' كشري التحرير',
+                    desc: 'أصل الكشري في مصر'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: '',
+                    name: 'ماركت أولاد رجب',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' محل بيع اجهزة كهربائيه', desc: 'حميع أنواع الاجهزة الكهربائيه الحديثه' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Mnofya2 = [
+    {
+        id: 'Mnofya2', // ✅ كان رقم
+        name: 'محافظة المنوفيه ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Mnofya2' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+                { name: 'شحن السيارات الكهربائيه', desc: 'شحن سريع للسيارات الكهربائيه الحديثه' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لجميع خدمات السيارات', desc: '' },
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لشحن السيارات الكهربائيه', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: '',
+                    name: 'Master On The Go',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' محل بيع اجهزة كهربائيه', desc: 'حميع أنواع الاجهزة الكهربائيه الحديثه' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
+export const Mnofya3 = [
+    {
+        id: 'Mnofya3', // ✅ كان رقم
+        name: 'محافظة المنوفيه ',
+        phone: '0109876543',
+        location: { lat: 31.39972518650697, lng: 30.00629370835832, label: 'Mnofya3' },
+        gaz: {
+            fuels: [
+                { name: 'بنزين 95', desc: 'أداء ممتاز لمحركات حديثة' },
+                { name: 'بنزين 92', desc: 'اقتصادي ومناسب للاستخدام اليومي' },
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwvgc8qjvn4GB5EzdBrfughqCE5BWbIJNGQhr1IbAi0YgB-mP3Ozc41wCjYE87b8DM1eSxUkJZUNTGM112Nr-QWSx2Mk2enczUJsZtng87UbhG6x57WBCk4hWIkalBYoSQC3BY2=s680-w680-h510-rw',
+
+            ],
+
+        },
+        coffee: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-mug-hot', title: 'Starbucks', desc: 'افضل الاماكن في مصر للاسترخاء واالعمل في هدوء' },
+
+            ],
+            features: [
+                'مكان مريح للراحة السريعة',
+                'إمكانية حجز الطلبات قبل الوصول',
+            ],
+            hours: '9:00 صباحًا – 1:00 بعد منتصف الليل',
+            images: [
+                'https://i.insider.com/610d776638aff70018904bb1?width=800&format=jpeg&auto=webp',
+                'https://upload.wikimedia.org/wikipedia/commons/d/d4/Dunkin%27_Donuts_storefront.jpg',
+                'https://www.nescafe.com/mena/sites/default/files/2023-09/Coffee_Cup_Guide_757x418_0.jpg',
+                'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/2a/85/de/ta-img-20190414-135442.jpg?w=900&h=500&s=1',
+            ]
+        },
+        cars: {
+            available: true,
+            cards: [
+                { icon: 'fa-solid fa-oil-can', title: 'مقر لجميع خدمات السيارات', desc: '' },
+            ],
+            features: [
+                'جميع خدمات السيارات تتم بواسطة فنيين متخصصين.',
+                'نستخدم أدوات حديثة لضمان أفضل نتيجة.',
+                'الخدمة سريعة لتوفير وقتك بدون انتظار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx8Fer41ZKZg_zaYLmhrBhykpPsujugV9CLcQ5WAT9HnP_l13FpyP4NOiWry9NGRyz7beNxaMbkmbAJzZ5hRzM2qOPRXeCvx2r7vVDAuWY1o43rO1v4kGq35p3i3oethy5IEf4HNA=s680-w680-h510-rw',
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz4kI5XWvoJFERaxd-dbixq8q0g6B-qHDhWADw3uIQxEHSM_ExibnnYkm5SyCEl9zG8kMLIZyNYZYOiohvBrlYdOKkPs-ZqAZStQHpW7Am10dgYljaf9jOaIiLNvas6O9WnwBfe=s680-w680-h510-rw',
+            ]
+        },
+        restaurant: {
+            available: true,
+            cards: [
+                {
+                    logo: "../../../assets/images/McDonald's_Golden_Arches.svg.png",
+                    name: "McDonald's",
+                    desc: 'وجبات سريعة عالمية بطعم مميز.'
+                },
+
+            ],
+            features: [
+                'جميع المطاعم تعمل طوال اليوم لخدمة المسافرين.',
+                'اختيارات متنوعة تناسب جميع الأذواق.',
+                'خدمة سريعة ونظافة عالية.',
+                'أماكن جلوس مريحة للعائلات.'
+            ],
+            images: [
+                'https://t3.ftcdn.net/jpg/04/33/82/38/360_F_433823865_FKA6TMSysqCSqYIiPECzZ2RPjejsNDzT.jpg',
+                'https://www.allinharidwar.com/wp-content/uploads/2015/08/dominos-pizza.jpg',
+                'https://wkendz.com/uploads/restaurants/11_3RPbuc1ike28suf.jpg',
+                'https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltd29ec141d1f97397/6724e79ed3cd6abcfe098d12/papa-johns-quarterly-business-update_4.jpg?width=1280&auto=webp&quality=80&disable=upscale '
+
+            ]
+        },
+        market: {
+            available: true,
+            cards: [
+                {
+                    logo: '',
+                    name: 'Master On The Go',
+                    desc: 'مشروبات – سناكس – مستلزمات السفر.',
+                },
+
+            ],
+            features: [
+                'الماركت متوفر 24 ساعة لخدمة المسافرين.',
+                'تشكيلة واسعة من المنتجات اليومية.',
+                'أسعار واضحة ومناسبة للجميع.',
+                'سرعة في الخدمة لتوفير وقتك.'
+            ],
+            images: [
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccleFnryRipL9LEWUfa1RR1ROdZX52jLq_g&s',
+
+            ]
+        },
+        pharmacy: {
+            available: true,
+            title: 'صيدلية عماره',
+            subtitle: 'جميع الصيدليات المتاحة في محطة العلمين',
+            cards: [
+                { icon: 'fa-solid fa-pills pharmacy-icon', title: 'أدوية أساسية', desc: 'أدوية موثوقة للاستخدام اليومي.' },
+                { icon: 'fa-solid fa-briefcase-medical pharmacy-icon', title: 'إسعافات أولية', desc: 'مستلزمات الطوارئ والجروح.' },
+                { icon: 'fa-solid fa-heart-pulse pharmacy-icon', title: 'مستلزمات طبية', desc: 'أجهزة قياس الضغط والسكر.' },
+                { icon: 'fa-solid fa-prescription-bottle-medical pharmacy-icon', title: 'فيتامينات', desc: 'مكملات غذائية لدعم صحتك.' },
+            ],
+            features: [
+                'صيدلي مختص متواجد للرد على الاستفسارات.',
+                'جميع المنتجات معتمدة من وزارة الصحة.',
+                'التزام كامل بإجراءات السلامة.',
+                'خدمة سريعة لتوفير وقتك.'
+            ],
+            images: [
+                'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5',
+                'https://images.unsplash.com/photo-1615461066841-6116e61058f4'
+            ]
+        },
+        flowers: {
+            available: true,
+            title: 'عاشقة الورد',
+            subtitle: 'جميع انواع الورد والهدايا القيمه',
+            cards: [
+                { icon: 'fa-solid fa-seedling flower-icon', title: 'ورد طبيعي', desc: 'أجود أنواع الورد الطازج يوميًا.' },
+                { icon: 'fa-solid fa-gift flower-icon', title: 'بوكيهات مناسبات', desc: 'أفراح – خطوبة – أعياد ميلاد.' },
+                { icon: 'fa-solid fa-heart flower-icon', title: 'هدايا رومانسية', desc: 'ورد مع شوكولاتة وبوكسات مميزة.' },
+                { icon: 'fa-solid fa-palette flower-icon', title: 'تنسيق حسب الطلب', desc: 'اختاري الألوان والتنسيق بنفسك.' },
+            ],
+            features: [
+                'نوفر تنسيقات تناسب كل المناسبات.',
+                'ورد طازج يتم اختياره بعناية.',
+                'إمكانية تجهيز الطلب في وقت قياسي.',
+                'خدمة عملاء لمساعدتك في الاختيار.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwtB9UOJEPSaUquUWbiPQmm2pi044dBtiW7FLYXf8Cv7uOeVbk2xHCS5X8923csEIgBd1NSrP5mDYOBWamRTRyUCqAxl6NS7PeDaX1kDE19oAqlwIeVlISv3zCNaaO5YVDihmNJ=s1360-w1360-h1020-rw',
+                'https://images.unsplash.com/photo-1509042239860-f550ce710b93',
+                'https://images.unsplash.com/photo-1518895949257-7621c3c786d7',
+            ]
+        },
+        atm: {
+            available: true,
+            title: 'ATM & الخدمات البنكية',
+            subtitle: 'معاملاتك البنكية والمالية بسهولة وأمان',
+            cards: [
+                { type: 'icon', icon: 'fa-solid fa-building-columns service-icon', title: '', desc: 'سحب – إيداع – استعلام رصيد.' },
+
+                { type: 'img', logo: 'assets/images/National_Bank_of_Egypt.svg.png', title: ' البنك الأهلي المصري', desc: 'جميع المعاملات البنكية الأساسية.' },
+                { type: 'img', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Banque_Misr.svg/1280px-Banque_Misr.svg.png', title: ' بنك مصر', desc: 'جميع المعاملات البنكية الأساسية.' },
+            ],
+            features: [
+                'جميع المعاملات تتم بأعلى معايير الأمان.',
+                'ماكينات ATM تعمل على مدار 24 ساعة.',
+                'دعم كامل لخدمات الدفع الإلكتروني.',
+                'فريق الدعم جاهز للمساعدة.',
+            ]
+        },
+        vap: {
+            available: true,
+            title: 'VAP Station',
+            subtitle: 'منتجات الفيب والإكسسوارات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-droplet', title: 'E-Liquids', desc: 'نكهات متعددة وتركيزات مختلفة.' },
+                { icon: 'fa-solid fa-battery-full', title: 'أجهزة', desc: 'أجهزة مناسبة للمبتدئين والمحترفين.' },
+                { icon: 'fa-solid fa-gears', title: 'إكسسوارات', desc: 'Coils – Pods – Chargers.' },
+                { icon: 'fa-solid fa-box', title: 'Disposable', desc: 'خيارات جاهزة وسهلة الاستخدام.' },
+            ],
+            features: [
+                'تشكيلة متنوعة من النكهات.',
+                'إكسسوارات متوفرة حسب نوع الجهاز.',
+                'مساعدة في اختيار المنتج المناسب.',
+                'تنبيه: البيع للبالغين فقط.',
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+        clothes: {
+            available: true,
+            title: 'متجر الملابس',
+            subtitle: 'ملابس وإكسسوارات للرحلات في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-shirt', title: 'ملابس رجالي', desc: 'تيشيرتات – بناطيل – جاكيتات.' },
+                { icon: 'fa-solid fa-person-dress', title: 'ملابس حريمي', desc: 'فساتين – كاجوال – سويت شيرت.' },
+                { icon: 'fa-solid fa-child', title: 'ملابس أطفال', desc: 'مقاسات متعددة وخامات مريحة.' },
+                { icon: 'fa-solid fa-bag-shopping', title: 'إكسسوارات', desc: 'شنط – نظارات – محافظ.' },
+                { icon: 'fa-solid fa-socks', title: 'أساسيات', desc: 'شرابات – قبعات – أحزمة.' },
+                { icon: 'fa-solid fa-tags', title: 'عروض', desc: 'خصومات موسمية وباقات.' },
+            ],
+            features: [
+                'خامات عملية مناسبة للسفر.',
+                'مقاسات متنوعة وخيارات كثيرة.',
+                'مساعدة في اختيار المقاس المناسب.',
+                'إمكانية استبدال حسب سياسة المحل.',
+            ],
+            hours: '10:00 صباحًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80',
+                'https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1200&q=80',
+            ]
+
+
+        },
+        beauty: {
+            available: true,
+            title: 'Beauty Center',
+            subtitle: 'خدمات العناية والجمال في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-scissors', title: 'Hair Styling', desc: 'قص – سيشوار – صبغات – بروتين.' },
+                { icon: 'fa-solid fa-spa', title: 'Skin Care', desc: 'ماسكات – تنظيف بشرة – جلسات ترطيب.' },
+                { icon: 'fa-solid fa-hand-sparkles', title: 'Nails', desc: 'مانيكير – باديكير – جيل.' },
+                { icon: 'fa-solid fa-wand-magic-sparkles', title: 'Makeup', desc: 'مكياج مناسبات – عرائس – تصوير.' },
+            ],
+            features: [
+                'متخصصين بخبرة عالية.',
+                'حجز مسبق لتقليل وقت الانتظار.',
+                'منتجات أصلية ومعتمدة.',
+                'تنبيه: الخدمة للسيدات فقط (لو حابب).',
+            ],
+            hours: '12:00 ظهرًا – 12:00 منتصف الليل',
+            images: [
+                'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e',
+                'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388',
+                'https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f',
+            ]
+        },
+        shops: {
+            available: true,
+            title: 'Shops Station',
+            subtitle: 'محلات مختلفه ومتنوعه في مكان واحد',
+            cards: [
+                { icon: 'fa-solid fa-table-tennis-paddle-ball', title: ' محل بيع اجهزة كهربائيه', desc: 'حميع أنواع الاجهزة الكهربائيه الحديثه' },
+
+
+            ],
+            features: [
+                'جميع المحلات مفتوحه علي مدار اليوم '
+            ],
+            images: [
+                'https://lh3.googleusercontent.com/gps-cs-s/AG0ilSx4g5tDubBVPgL_wUrCEhTuE_N4iv1UoWfC0AonuzCP3GOdiulqIgO-YGnvRDBeBP8E_TAFTozHu1JJFppRu7e_lcUeGOGr7sn2d3h_A_-3wKyA5hwoOzffsm3DOBB2j3UhKDhTuQ=s680-w680-h510-rw',
+            ]
+        },
+    }
+];
 export const ALL_STATIONS =
-    [...Info, ...MYDINTI_INFO, ...Tirumph, ...Tagamo35, ...AUC,
-    ...Forest, ...Matser, ...Matser2, ...Academy, ...Loutas, ...Sadat1, ...Sadat2,
-    ...South90, ...AirHosbital, ...Rehab2, ...Obour1, ...Obour2, ...October2,
-    ...October1, ...October3, ...October4, ...October5, ...October6, ...October7,
-    ...Zayed1, ...Zayed2, ...Shorouk1, ...Shorouk2, ...Shorouk3, ...Shorouk4, ...Alamin1, ...Alamin2, ...Alamin3,
-    ...Suez1, ...Suez2, ...Suez3, ...Suez4, ...Giza1, ...Giza2, ...GizaC1, ...GizaC2, ...GizaC3, ...Torism1, ...Torism2, ...RedSea
-        , ...Cairo1, ...Cairo2, ...Cairo3, ...Cairo4, ...Cairo5, ...Cairo6
+    [
+        ...Info, ...MYDINTI_INFO, ...Tirumph, ...Tagamo35, ...AUC,
+        ...Forest, ...Matser, ...Matser2, ...Academy, ...Loutas, ...Sadat1, ...Sadat2,
+        ...South90, ...AirHosbital, ...Rehab2, ...Obour1, ...Obour2, ...October2,
+        ...October1, ...October3, ...October4, ...October5, ...October6, ...October7,
+        ...Zayed1, ...Zayed2, ...Shorouk1, ...Shorouk2, ...Shorouk3, ...Shorouk4, ...Alamin1, ...Alamin2, ...Alamin3,
+        ...Suez1, ...Suez2, ...Suez3, ...Suez4, ...Giza1, ...Giza2, ...GizaC1, ...GizaC2, ...GizaC3, ...Torism1, ...Torism2, ...RedSea,
+        ...Cairo1, ...Cairo2, ...Cairo3, ...Cairo4, ...Cairo5, ...Cairo6, ...Cairo7, ...Cairo8, ...Cairo9, ...Cairo10, ...Cairo11, ...Cairo12,
+        ...Cairo13, ...Cairo14, ...Cairo15, ...Cairo16, ...Cairo17, ...Cairo18, ...Cairo19, ...Cairo20, ...Cairo21, ...Cairo22, ...Cairo23,
+        ...Cairo24, ...Cairo25, ...Cairo26, ...Cairo27, ...Cairo28, ...Cairo29, ...Cairo30, ...Cairo31, ...Cairo32, ...Cairo33, ...Cairo34,
+        ...Cairo35, ...Qalyub1, ...Qalyub2, ...Qalyub3, ...Qalyub4, ...Qalyub5, ...Qalyub6, ...Qalyub7, ...Mnofya1, ...Mnofya2,
+        ...Mnofya3
+
+
     ];

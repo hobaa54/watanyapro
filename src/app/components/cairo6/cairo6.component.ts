@@ -13,8 +13,8 @@ export class Cairo6Component implements AfterViewInit {
   station: any;
   services2 = SERVICES2;
   openGoogleMaps() {
-    const lat = 30.849022094887207;
-    const lng = 28.917820435734463;
+    const lat = 30.05383293897236;
+    const lng = 31.371219578099865;
 
     const url = `https://www.google.com/maps?q=${lat},${lng}`;
     window.open(url, '_blank');
@@ -25,13 +25,13 @@ export class Cairo6Component implements AfterViewInit {
   }
 
   initMap() {
-    const map = L.map('map').setView([30.849022094887207, 28.917820435734463], 15);
+    const map = L.map('map').setView([30.05383293897236, 31.371219578099865], 15);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '© OpenStreetMap'
     }).addTo(map);
 
-    L.marker([30.849022094887207, 28.917820435734463])
+    L.marker([30.05383293897236, 31.371219578099865])
       .addTo(map)
       .bindPopup('ChillOut')
       .openPopup();

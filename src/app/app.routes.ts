@@ -78,6 +78,47 @@ import { Cairo5Component } from './components/cairo5/cairo5.component';
 import { Cairo4Component } from './components/cairo4/cairo4.component';
 import { Cairo3Component } from './components/cairo3/cairo3.component';
 import { Cairo2Component } from './components/cairo2/cairo2.component';
+import { Cairo7Component } from './components/cairo7/cairo7.component';
+import { Cairo10Component } from './components/cairo10/cairo10.component';
+import { Cairo9Component } from './components/cairo9/cairo9.component';
+import { Cairo8Component } from './components/cairo8/cairo8.component';
+import { Cairo11Component } from './components/cairo11/cairo11.component';
+import { Cairo12Component } from './components/cairo12/cairo12.component';
+import { Cairo13Component } from './components/cairo13/cairo13.component';
+import { Cairo14Component } from './components/cairo14/cairo14.component';
+import { Cairo16Component } from './components/cairo16/cairo16.component';
+import { Cairo15Component } from './components/cairo15/cairo15.component';
+import { Cairo17Component } from './components/cairo17/cairo17.component';
+import { Cairo18Component } from './components/cairo18/cairo18.component';
+import { Cairo19Component } from './components/cairo19/cairo19.component';
+import { Cairo20Component } from './components/cairo20/cairo20.component';
+import { Cairo21Component } from './components/cairo21/cairo21.component';
+import { Cairo22Component } from './components/cairo22/cairo22.component';
+import { Cairo23Component } from './components/cairo23/cairo23.component';
+import { Cairo25Component } from './components/cairo25/cairo25.component';
+import { Cairo24Component } from './components/cairo24/cairo24.component';
+import { Cairo26Component } from './components/cairo26/cairo26.component';
+import { Cairo27Component } from './components/cairo27/cairo27.component';
+import { Cairo28Component } from './components/cairo28/cairo28.component';
+import { Cairo29Component } from './components/cairo29/cairo29.component';
+import { Cairo30Component } from './components/cairo30/cairo30.component';
+import { Cairo31Component } from './components/cairo31/cairo31.component';
+import { Cairo32Component } from './components/cairo32/cairo32.component';
+import { Cairo33Component } from './components/cairo33/cairo33.component';
+import { Cairo34Component } from './components/cairo34/cairo34.component';
+import { Cairo35Component } from './components/cairo35/cairo35.component';
+import { Qalyub1Component } from './components/qalyub1/qalyub1.component';
+import { QalyubDetailsComponent } from './components/qalyub-details/qalyub-details.component';
+import { Qalyub3Component } from './components/qalyub3/qalyub3.component';
+import { Qalyub2Component } from './components/qalyub2/qalyub2.component';
+import { Qalyub7Component } from './components/qalyub7/qalyub7.component';
+import { Qalyub6Component } from './components/qalyub6/qalyub6.component';
+import { Qalyub5Component } from './components/qalyub5/qalyub5.component';
+import { Qalyub4Component } from './components/qalyub4/qalyub4.component';
+import { Mnofya1Component } from './components/mnofya1/mnofya1.component';
+import { Mnofya2Component } from './components/mnofya2/mnofya2.component';
+import { Mnofya3Component } from './components/mnofya3/mnofya3.component';
+import { MnofyaDetailsComponent } from './components/mnofya-details/mnofya-details.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -96,9 +137,12 @@ export const routes: Routes = [
     { path: 'app-giza2-details', component: Giza2DetailsComponent, title: 'Giza2Details' },
     { path: 'app-red-sea-details', component: RedSeaDetailsComponent, title: 'RedSeaDetails' },
     { path: 'app-cairo', component: CairoComponent, title: 'CairoDetails' },
-    
     { path: 'app-torism', component: TorismComponent, title: 'Torism' },
+    { path: 'app-qalyub-details', component: QalyubDetailsComponent, title: 'QalyubiaDetails' },
+    { path: 'app-mnofya-details', component: MnofyaDetailsComponent, title: 'MnofyaDetails' },
+
     //!Stations
+
     { path: 'app-rehab-details', component: RehabDetailsComponent, title: 'rehab' },
     { path: 'app-madinty', component: MadintyComponent, title: 'madinty' },
     { path: 'app-tirumph-station', component: TirumphStationComponent, title: 'tirumph' },
@@ -142,7 +186,7 @@ export const routes: Routes = [
     { path: 'app-giza-c1', component: GizaC1Component, title: 'GizaC1' },
     { path: 'app-giza-c2', component: GizaC2Component, title: 'GizaC2' },
     { path: 'app-giza-c3', component: GizaC3Component, title: 'GizaC3' },
-    { path: 'app-torism2', component: Torism2Component, title: 'Torism2' },
+    { path: 'app-torism2', component: Torism2Component, title: 'Torism2'},
     { path: 'app-torism1', component: Torism1Component, title: 'Torism1' },
     { path: 'app-red-sea', component: RedSeaComponent, title: 'RedSea' },
     { path: 'app-cairo1', component: Cairo1Component, title: 'Cairo1' },
@@ -151,6 +195,45 @@ export const routes: Routes = [
     { path: 'app-cairo4', component: Cairo4Component, title: 'Cairo4' },
     { path: 'app-cairo5', component: Cairo5Component, title: 'Cairo5' },
     { path: 'app-cairo6', component: Cairo6Component, title: 'Cairo6' },
+    { path: 'app-cairo7', component: Cairo7Component, title: 'Cairo7' },
+    { path: 'app-cairo8', component: Cairo8Component, title: 'Cairo8' },
+    { path: 'app-cairo9', component: Cairo9Component, title: 'Cairo9' },
+    { path: 'app-cairo10', component: Cairo10Component, title: 'Cairo10' },
+    { path: 'app-cairo11', component: Cairo11Component, title: 'Cairo11' },
+    { path: 'app-cairo12', component: Cairo12Component, title: 'Cairo12' },
+    { path: 'app-cairo13', component: Cairo13Component, title: 'Cairo13' },
+    { path: 'app-cairo14', component: Cairo14Component, title: 'Cairo14' },
+    { path: 'app-cairo15', component: Cairo15Component, title: 'Cairo15' },
+    { path: 'app-cairo16', component: Cairo16Component, title: 'Cairo16' },
+    { path: 'app-cairo17', component: Cairo17Component, title: 'Cairo17' },
+    { path: 'app-cairo18', component: Cairo18Component, title: 'Cairo18' },
+    { path: 'app-cairo19', component: Cairo19Component, title: 'Cairo19' },
+    { path: 'app-cairo20', component: Cairo20Component, title: 'Cairo20' },
+    { path: 'app-cairo21', component: Cairo21Component, title: 'Cairo21' },
+    { path: 'app-cairo22', component: Cairo22Component, title: 'Cairo22' },
+    { path: 'app-cairo23', component: Cairo23Component, title: 'Cairo23' },
+    { path: 'app-cairo24', component: Cairo24Component, title: 'Cairo24' },
+    { path: 'app-cairo25', component: Cairo25Component, title: 'Cairo25' },
+    { path: 'app-cairo26', component: Cairo26Component, title: 'Cairo26' },
+    { path: 'app-cairo27', component: Cairo27Component, title: 'Cairo27' },
+    { path: 'app-cairo28', component: Cairo28Component, title: 'Cairo28' },
+    { path: 'app-cairo29', component: Cairo29Component, title: 'Cairo29' },
+    { path: 'app-cairo30', component: Cairo30Component, title: 'Cairo30' },
+    { path: 'app-cairo31', component: Cairo31Component, title: 'Cairo31' },
+    { path: 'app-cairo32', component: Cairo32Component, title: 'Cairo32' },
+    { path: 'app-cairo33', component: Cairo33Component, title: 'Cairo33' },
+    { path: 'app-cairo34', component: Cairo34Component, title: 'Cairo34' },
+    { path: 'app-cairo35', component: Cairo35Component, title: 'Cairo35' },
+    { path: 'app-qalyub1', component: Qalyub1Component, title: 'Qalyub1' },
+    { path: 'app-qalyub2', component: Qalyub2Component, title: 'Qalyub2' },
+    { path: 'app-qalyub3', component: Qalyub3Component, title: 'Qalyub3' },
+    { path: 'app-qalyub4', component: Qalyub4Component, title: 'Qalyub4' },
+    { path: 'app-qalyub5', component: Qalyub5Component, title: 'Qalyub5' },
+    { path: 'app-qalyub6', component: Qalyub6Component, title: 'Qalyub6' },
+    { path: 'app-qalyub7', component: Qalyub7Component, title: 'Qalyub7' },
+    { path: 'app-mnofya1', component: Mnofya1Component, title: 'Mnofya1' },
+    { path: 'app-mnofya2', component: Mnofya2Component, title: 'Mnofya2' },
+    { path: 'app-mnofya3', component: Mnofya3Component, title: 'Mnofya3' },
 
     // Route واحد للجاز وبـ stationId
     { path: 'gaz/:stationId', component: GazComponent, title: 'gaz' },
