@@ -12,7 +12,9 @@ type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest'
   | 'Cairo11' | 'Cairo12' | 'Cairo13' | 'Cairo14' | 'Cairo15' | 'Cairo16' | 'Cairo17' | 'Cairo18' | 'Cairo19' | 'Cairo20' | 'Cairo21'
   | 'Cairo22' | 'Cairo23' | 'Cairo24' | 'Cairo25' | 'Cairo26' | 'Cairo27' | 'Cairo28' | 'Cairo29' | 'Cairo30' | 'Cairo31' | 'Cairo32'
   | 'Cairo33' | 'Cairo34' | 'Cairo35' | 'Qalyub1' | 'Qalyub2' | 'Qalyub3' | 'Qalyub4' | 'Qalyub5' | 'Qalyub6' | 'Qalyub7'
-  | 'Mnofya1' | 'Mnofya2' | 'Mnofya3';
+  | 'Mnofya1' | 'Mnofya2' | 'Mnofya3' | 'Sharm' | 'Alex1' | 'Alex2' | 'Alex3' | 'Alex4' | 'Alex5' | 'Ismailia1' | 'Ismailia2' | 'Ismailia3'
+  | 'Gharbia1' | 'Gharbia2' | 'Sharqia1' | 'Sharqia2' | 'Aswan1' | 'Aswan2' | 'Matrouh1' | 'Matrouh2' | 'Matrouh3'
+  | 'Cairo36' | 'Cairo37' | 'Cairo38' | 'North';
 
 @Component({
   selector: 'app-gaz',
@@ -118,6 +120,9 @@ export class GazComponent {
     if (id === 'Cairo33') return '/app-cairo33';    // عدّلها حسب route بتاع Cairo33
     if (id === 'Cairo34') return '/app-cairo34';    // عدّلها حسب route بتاع Cairo34
     if (id === 'Cairo35') return '/app-cairo35';    // عدّلها حسب route بتاع Cairo35
+    if (id === 'Cairo36') return '/app-cairo36';    // عدّلها حسب route بتاع Cairo36
+    if (id === 'Cairo37') return '/app-cairo37';    // عدّلها حسب route بتاع Cairo37
+    if (id === 'Cairo38') return '/app-cairo38';    // عدّلها حسب route بتاع Cairo38
     if (id === 'Qalyub1') return '/app-qalyub1';    // عدّلها حسب route بتاع Qalyub1
     if (id === 'Qalyub2') return '/app-qalyub2';    // عدّلها حسب route بتاع Qalyub2
     if (id === 'Qalyub3') return '/app-qalyub3';     // عدّلها حسب route بتاع Qalyub3
@@ -128,6 +133,25 @@ export class GazComponent {
     if (id === 'Mnofya1') return '/app-mnofya1';     // عدّلها حسب route بتاع Mnofya1
     if (id === 'Mnofya2') return '/app-mnofya2';     // عدّلها حسب route بتاع Mnofya2
     if (id === 'Mnofya3') return '/app-mnofya3';     // عدّلها حسب route بتاع Mnofya3
+    if (id === 'Sharm') return '/app-sharm';        // عدّلها حسب route بتاع Sharm
+    if (id === 'Alex1') return '/app-alex1';        // عدّلها حسب route بتاع Alex1
+    if (id === 'Alex2') return '/app-alex2';        // عدّلها حسب route بتاع Alex2
+    if (id === 'Alex3') return '/app-alex3';        // عدّلها حسب route بتاع Alex3
+    if (id === 'Alex4') return '/app-alex4';        // عدّلها حسب route بتاع Alex4
+    if (id === 'Alex5') return '/app-alex5';        // عدّلها حسب route بتاع Alex5
+    if (id === 'Ismailia1') return '/app-ismailia1'; // عدّلها حسب route بتاع Ismailia1
+    if (id === 'Ismailia2') return '/app-ismailia2'; // عدّلها حسب route بتاع Ismailia2
+    if (id === 'Ismailia3') return '/app-ismailia3'; // عدّلها حسب route بتاع Ismailia3
+    if (id === 'Gharbia1') return '/app-gharbia1'; // عدّلها حسب route بتاع Gharbia1
+    if (id === 'Gharbia2') return '/app-gharbia2'; // عدّلها حسب route بتاع Gharbia2
+    if (id === 'Sharqia1') return '/app-sharqia1'; // عدّلها حسب route بتاع Sharqia1
+    if (id === 'Sharqia2') return '/app-sharqia2'; // عدّلها حسب route بتاع Sharqia2
+    if (id === 'Aswan1') return '/app-aswan1'; // عدّلها حسب route بتاع Aswan1
+    if (id === 'Aswan2') return '/app-aswan2'; // عدّلها حسب route بتاع Aswan2
+    if (id === 'Matrouh1') return '/app-matrouh1'; // عدّلها حسب route بتاع Matrouh1
+    if (id === 'Matrouh2') return '/app-matrouh2'; // عدّلها حسب route بتاع Matrouh2
+    if (id === 'Matrouh3') return '/app-matrouh3'; // عدّلها حسب route بتاع Matrouh3
+    if (id === 'North') return '/app-north';    // عدّلها حسب route بتاع North
     return '/details';
   });
 
@@ -149,7 +173,11 @@ export class GazComponent {
         || id === 'Cairo19' || id === 'Cairo20' || id === 'Cairo21' || id === 'Cairo22' || id === 'Cairo23' || id === 'Cairo24' || id === 'Cairo25' || id === 'Cairo26' || id === 'Cairo27' || id === 'Cairo28' || id === 'Cairo29'
         || id === 'Cairo30' || id === 'Cairo31' || id === 'Cairo32' || id === 'Cairo33' || id === 'Cairo34' || id === 'Cairo35'
         || id === 'Qalyub1' || id === 'Qalyub2' || id === 'Qalyub3' || id === 'Qalyub4' || id === 'Qalyub5' || id === 'Qalyub6' || id === 'Qalyub7'
-        || id === 'Mnofya1' || id === 'Mnofya2' || id === 'Mnofya3'
+        || id === 'Mnofya1' || id === 'Mnofya2' || id === 'Mnofya3' || id === 'Sharm' || id === 'Alex1' || id === 'Alex2' || id === 'Alex3' || id === 'Alex4' || id === 'Alex5'
+        || id === 'Ismailia1' || id === 'Ismailia2' || id === 'Ismailia3' || id === 'Gharbia1' || id === 'Gharbia2'
+        || id === 'Sharqia1' || id === 'Sharqia2' || id === 'Aswan1' || id === 'Aswan2' || id === 'Matrouh1' || id === 'Matrouh2' || id === 'Matrouh3'
+        || id === 'Cairo36' || id === 'Cairo37' || id === 'Cairo38' || id === 'North'
+
       ) {
         this.stationId.set(id);
       }

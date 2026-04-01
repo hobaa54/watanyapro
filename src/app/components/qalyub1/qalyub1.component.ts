@@ -51,11 +51,11 @@ export const SERVICES2 = [
     icon: 'bi bi-car-front-fill',
     route: '/cars/Qalyub1'
   },
- {
+  {
     title: 'منطقة المعاملات',
     icon: 'bi bi-emoji-smile-fill',
     route: '/atm/Qalyub1'
   },
- 
+
 ];
 

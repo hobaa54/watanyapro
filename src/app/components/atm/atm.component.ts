@@ -6,13 +6,15 @@ import { ALL_STATIONS, Loutas } from '../cards.data'; // عدّل المسار �
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Master' | 'Academy' | 'Loutas'
   | 'Sadat1' | 'Obour1' | 'October2' | 'October3' | 'October4' | 'October5' | 'October6' | 'Zayed1' | 'Zayed2' | 'Alamin3'
   | 'Cairo1' | 'Cairo2' | 'Cairo3' | 'Cairo4' | 'Cairo5' | 'Cairo6' | 'Cairo7' | 'Cairo8' | 'Cairo9' | 'Cairo10'
-  | 'Cairo11' | 'Cairo12' |'Cairo14' | 'Cairo17' |'Cairo20' | 'Cairo30' | 'Cairo34' | 'Qalyub1' | 'Qalyub2' | 'Qalyub3';
+  | 'Cairo11' | 'Cairo12' |'Cairo14' | 'Cairo17' |'Cairo20' | 'Cairo30' | 'Cairo34' | 'Qalyub1' | 'Qalyub2' | 'Qalyub3'
+  | 'Sharm' | 'Alex1' | 'Alex2' | 'Alex3' | 'Alex4' | 'Alex5' | 'North'
+  ;
 
 @Component({
   selector: 'app-atm',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './atm.component.html',
+  templateUrl:'./atm.component.html',
   styleUrl: './atm.component.css',
   animations: [
     trigger('fadeUp', [
@@ -70,6 +72,13 @@ export class AtmComponent {
     if (id === 'Qalyub1') return '/app-qalyub1'; // عدّلها حسب route بتاع Qalyub1
     if (id === 'Qalyub2') return '/app-qalyub2'; // عدّلها حسب route بتاع Qalyub2
     if (id === 'Qalyub3') return '/app-qalyub3'; // عدّلها حسب route بتاع Qalyub3
+    if (id === 'Sharm') return '/app-sharm'; // عدّلها حسب route بتاع Sharm
+    if (id === 'Alex1') return '/app-alex1'; // عدّلها حسب route بتاع Sharm
+    if (id === 'Alex2') return '/app-alex2'; // عدّلها حسب route بتاع Sharm
+    if (id === 'Alex3') return '/app-alex3'; // عدّلها حسب route بتاع Sharm
+    if (id === 'Alex4') return '/app-alex4'; // عدّلها حسب route بتاع Sharm
+    if (id === 'Alex5') return '/app-alex5'; // عدّلها حسب route بتاع Sharm
+    if (id === 'North') return '/app-north'; // عدّلها حسب route بتاع North
     return '/details';
   });
   constructor(private route: ActivatedRoute) {
@@ -81,7 +90,9 @@ export class AtmComponent {
         || id === 'Cairo1' || id === 'Cairo2' || id === 'Cairo3' || id === 'Cairo4' || id === 'Cairo5' || id === 'Cairo6' 
         || id === 'Cairo7' || id === 'Cairo8' || id === 'Cairo9' || id === 'Cairo10' 
         || id === 'Cairo11' || id === 'Cairo12' || id === 'Cairo14' || id === 'Cairo17' || id === 'Cairo20' || id === 'Cairo30'
-        || id==='Cairo34' || id === 'Qalyub1' || id === 'Qalyub2' || id === 'Qalyub3'
+        || id==='Cairo34' || id === 'Qalyub1' || id === 'Qalyub2' || id === 'Qalyub3' || id === 'Sharm' || id === 'Alex1' || id === 'Alex2' || id === 'Alex3' 
+        || id === 'Alex4' || id === 'Alex5' || id === 'North'
+
 
         
       ) this.stationId.set(id);

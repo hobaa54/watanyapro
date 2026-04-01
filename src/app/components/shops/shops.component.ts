@@ -5,8 +5,8 @@ import { ALL_STATIONS } from '../cards.data';
 type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest' | 'Loutas' | 'Sadat1' |
   'Obour2' | 'October2' | 'October1' | 'October6' | 'October7' | 'Zayed2' | 'Zayed1' | 'Shorouk1'
   | 'Giza2' | 'Giza3' | 'Cairo2' | 'Cairo3' | 'Cairo4' | 'Cairo5' | 'Cairo6' | 'Cairo11'
-  |'Cairo17'  | 'Cairo21' | 'Cairo22' | 'Cairo33' | 'Cairo34' | 'Cairo35' | 'Qalyub3' |'Qalyub4' |'Qalyub5' | 'Qalyub6' | 'Qalyub7' 
-  |'Mnofya1';
+  | 'Cairo17' | 'Cairo21' | 'Cairo22' | 'Cairo33' | 'Cairo34' | 'Cairo35' | 'Qalyub3' | 'Qalyub4' | 'Qalyub5' | 'Qalyub6' | 'Qalyub7'
+  | 'Mnofya1' | 'Ismailia3' |'North';
 @Component({
   selector: 'app-shops',
   standalone: true,
@@ -60,6 +60,8 @@ export class ShopsComponent {
     if (id === 'Qalyub6') return '/app-qalyub6';    // عدّلها حسب route بتاع Qalyub6
     if (id === 'Qalyub7') return '/app-qalyub7';    // عدّلها حسب route بتاع Qalyub7
     if (id === 'Mnofya1') return '/app-mnofya1';    // عدّلها حسب route بتاع Mnofya1
+    if (id === 'Ismailia3') return '/app-ismailia3';    // عدّلها حسب route بتاع Mnofya1
+    if (id === 'North') return '/app-north';    // عدّلها حسب route بتاع North
     return '/details';
   });
 
@@ -71,9 +73,9 @@ export class ShopsComponent {
         || id === 'Rehab2' || id === 'Obour1' || id === 'Obour2' || id === 'October2' || id === 'October3'
         || id === 'October1' || id === 'October6' || id === 'October7' || id === 'Zayed1' || id === 'Zayed2' || id === 'Shorouk1'
         || id === 'Giza2' || id === 'Giza3' || id === 'Cairo2' || id === 'Cairo3' || id === 'Cairo4'
-        || id === 'Cairo5' || id === 'Cairo6' || id === 'Cairo11' || id === 'Cairo17' || id === 'Cairo21' || id === 'Cairo22' 
+        || id === 'Cairo5' || id === 'Cairo6' || id === 'Cairo11' || id === 'Cairo17' || id === 'Cairo21' || id === 'Cairo22'
         || id === 'Cairo33' || id === 'Cairo34' || id === 'Cairo35' || id === 'Qalyub3' || id === 'Qalyub4' || id === 'Qalyub5' || id === 'Qalyub6' || id === 'Qalyub7'
-        || id === 'Mnofya1'
+        || id === 'Mnofya1' || id === 'Ismailia3' || id === 'North'
       ) this.stationId.set(id);
     });
   }

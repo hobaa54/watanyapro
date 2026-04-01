@@ -8,8 +8,8 @@ type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest'
   | 'October6' | 'October7' | 'Zayed1' | 'Zayed2' | 'Shorouk1' | 'Shorouk2' | 'Alamin2' | 'Alamin3' | 'Giza1' | 'Giza2' | 'Giza3'
   | 'Torism2' | 'Cairo4' | 'Cairo5' | 'Cairo6' | 'Cairo7' | 'Cairo8' | 'Cairo9' | 'Cairo10' | 'Cairo11' | 'Cairo12'
   | 'Cairo16' | 'Cairo17' | 'Cairo18' | 'Cairo19' | 'Cairo23' | 'Cairo28' | 'Cairo29' | 'Cairo30' | 'Cairo34' | 'Cairo35'
-  | 'Qalyub3' | 'Qalyub4' | 'Qalyub5' | 'Qalyub6' | 'Qalyub7' | 'Mnofya1' | 'Mnofya2'
-  ;
+  | 'Qalyub3' | 'Qalyub4' | 'Qalyub5' | 'Qalyub6' | 'Qalyub7' | 'Mnofya1' | 'Mnofya2' | 'Sharm' | 'Alex1' | 'Alex2' | 'Alex3' | 'Alex4' | 'Alex5'
+  | 'Ismailia1' | 'Ismailia2' | 'Ismailia3' | 'Gharbia1'|'Cairo38' | 'North';
 
 
 @Component({
@@ -85,6 +85,8 @@ export class RestaurantComponent {
     if (id === 'Cairo30') return '/app-cairo30';  // عدّلها حسب route بتاع Cairo30
     if (id === 'Cairo34') return '/app-cairo34';  // عدّلها حسب route بتاع Cairo34
     if (id === 'Cairo35') return '/app-cairo35';   // عدّلها حسب route بتاع Cairo35
+    if (id === 'Cairo38') return '/app-cairo38';    // عدّلها حسب route بتاع Cairo38
+
     if (id === 'Qalyub3') return '/app-qalyub3';    // عدّلها حسب route بتاع Qalyub3
     if (id === 'Qalyub4') return '/app-qalyub4';    // عدّلها حسب route بتاع Qalyub4
     if (id === 'Qalyub5') return '/app-qalyub5';    // عدّلها حسب route بتاع Qalyub5
@@ -92,6 +94,18 @@ export class RestaurantComponent {
     if (id === 'Qalyub7') return '/app-qalyub7';    // عدّلها حسب route بتاع Qalyub7
     if (id === 'Mnofya1') return '/app-mnofya1';    // عدّلها حسب route بتاع Mnofya1
     if (id === 'Mnofya2') return '/app-mnofya2';    // عدّلها حسب route بتاع Mnofya2
+    if (id === 'Sharm') return '/app-sharm';    // عدّلها حسب route بتاع Sharm
+    if (id === 'Alex1') return '/app-alex1';    // عدّلها حسب route بتاع Alex1
+    if (id === 'Alex2') return '/app-alex2';    // عدّلها حسب route بتاع Alex2
+    if (id === 'Alex3') return '/app-alex3';    // عدّلها حسب route بتاع Alex3
+    if (id === 'Alex4') return '/app-alex4';    // عدّلها حسب route بتاع Alex4
+    if (id === 'Alex5') return '/app-alex5';    // عدّلها حسب route بتاع Alex5
+    if (id === 'Ismailia1') return '/app-ismailia1';    // عدّلها حسب route بتاع Isamilia1
+    if (id === 'Ismailia2') return '/app-ismailia2';    // عدّلها حسب route بتاع Isamilia2
+    if (id === 'Ismailia3') return '/app-ismailia3';    // عدّلها حسب route بتاع Isamilia3
+    if (id === 'Gharbia1') return '/app-gharbia1';    // عدّلها حسب route بتاع Gharbia1
+    if (id === 'North') return '/app-north';    // عدّلها حسب route بتاع North
+
 
     return '/details';
   });
@@ -109,7 +123,8 @@ export class RestaurantComponent {
         || id === 'Cairo8' || id === 'Cairo9' || id === 'Cairo10' || id === 'Cairo11' || id === 'Cairo12' || id === 'Cairo16'
         || id === 'Cairo17' || id === 'Cairo18' || id === 'Cairo19' || id === 'Cairo23' || id === 'Cairo28' || id === 'Cairo29'
         || id === 'Cairo30' || id === 'Cairo34' || id === 'Cairo35' || id === 'Qalyub3' || id === 'Qalyub4' || id === 'Qalyub5' || id === 'Qalyub6' || id === 'Qalyub7'
-        || id === 'Mnofya1' || id === 'Mnofya2'
+        || id === 'Mnofya1' || id === 'Mnofya2' || id === 'Sharm' || id === 'Alex1' || id === 'Alex2' || id === 'Alex3' || id === 'Alex4' || id === 'Alex5'
+        || id === 'Ismailia1' || id === 'Ismailia2' || id === 'Ismailia3' || id === 'Gharbia1' || id === 'Cairo38' || id === 'North'
       ) this.stationId.set(id);
     });
   }

@@ -119,6 +119,36 @@ import { Mnofya1Component } from './components/mnofya1/mnofya1.component';
 import { Mnofya2Component } from './components/mnofya2/mnofya2.component';
 import { Mnofya3Component } from './components/mnofya3/mnofya3.component';
 import { MnofyaDetailsComponent } from './components/mnofya-details/mnofya-details.component';
+import { SinaiDetailsComponent } from './components/sinai-details/sinai-details.component';
+import { SharmComponent } from './components/sharm/sharm.component';
+import { AlexandriaDetailsComponent } from './components/alexandria-details/alexandria-details.component';
+import { Alex1Component } from './components/alex1/alex1.component';
+import { Alex2Component } from './components/alex2/alex2.component';
+import { Alex3Component } from './components/alex3/alex3.component';
+import { Alex4Component } from './components/alex4/alex4.component';
+import { Alex5Component } from './components/alex5/alex5.component';
+import { IsmailiaDetailsComponent } from './components/ismailia-details/ismailia-details.component';
+import { Ismailia1Component } from './components/ismailia1/ismailia1.component';
+import { Ismailia2Component } from './components/ismailia2/ismailia2.component';
+import { Ismailia3Component } from './components/ismailia3/ismailia3.component';
+import { Gharbia1Component } from './components/gharbia1/gharbia1.component';
+import { Gharbia2Component } from './components/gharbia2/gharbia2.component';
+import { SharqiaDetailsComponent } from './components/sharqia-details/sharqia-details.component';
+import { Sharqia1Component } from './components/sharqia1/sharqia1.component';
+import { Sharqia2Component } from './components/sharqia2/sharqia2.component';
+import { AswanDetailsComponent } from './components/aswan-details/aswan-details.component';
+import { Aswan2Component } from './components/aswan2/aswan2.component';
+import { Aswan1Component } from './components/aswan1/aswan1.component';
+import { MatrouhDetailsComponent } from './components/matrouh-details/matrouh-details.component';
+import { Matrouh1Component } from './components/matrouh1/matrouh1.component';
+import { Matrouh2Component } from './components/matrouh2/matrouh2.component';
+import { Matrouh3Component } from './components/matrouh3/matrouh3.component';
+import { Cairo38Component } from './components/cairo38/cairo38.component';
+import { Cairo37Component } from './components/cairo37/cairo37.component';
+import { Cairo36Component } from './components/cairo36/cairo36.component';
+import { NorthDetailsComponent } from './components/north-details/north-details.component';
+import { Matrouh4Component } from './components/matrouh4/matrouh4.component';
+import { NorthComponent } from './components/north/north.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -140,6 +170,14 @@ export const routes: Routes = [
     { path: 'app-torism', component: TorismComponent, title: 'Torism' },
     { path: 'app-qalyub-details', component: QalyubDetailsComponent, title: 'QalyubiaDetails' },
     { path: 'app-mnofya-details', component: MnofyaDetailsComponent, title: 'MnofyaDetails' },
+    { path: 'app-sinai-details', component: SinaiDetailsComponent, title: 'SinaiDetails' },
+    { path: 'app-alexandria-details', component: AlexandriaDetailsComponent, title: 'AlexandriaDetails' },
+    { path: 'app-ismailia-details', component: IsmailiaDetailsComponent, title: 'IsmailiaDetails' },
+    { path: 'app-gharbia-details', component: Gharbia1Component, title: 'GharbiaDetails' },
+    { path: 'app-sharqia-details', component: SharqiaDetailsComponent, title: 'SharqiaDetails' },
+    { path: 'app-aswan-details', component: AswanDetailsComponent, title: 'AswanDetails' },
+    { path: 'app-matrouh-details', component: MatrouhDetailsComponent, title: 'MatrouhDetails' },
+    { path: 'app-north-details', component: NorthDetailsComponent, title: 'NorthDetails' },
 
     //!Stations
 
@@ -186,7 +224,7 @@ export const routes: Routes = [
     { path: 'app-giza-c1', component: GizaC1Component, title: 'GizaC1' },
     { path: 'app-giza-c2', component: GizaC2Component, title: 'GizaC2' },
     { path: 'app-giza-c3', component: GizaC3Component, title: 'GizaC3' },
-    { path: 'app-torism2', component: Torism2Component, title: 'Torism2'},
+    { path: 'app-torism2', component: Torism2Component, title: 'Torism2' },
     { path: 'app-torism1', component: Torism1Component, title: 'Torism1' },
     { path: 'app-red-sea', component: RedSeaComponent, title: 'RedSea' },
     { path: 'app-cairo1', component: Cairo1Component, title: 'Cairo1' },
@@ -224,6 +262,9 @@ export const routes: Routes = [
     { path: 'app-cairo33', component: Cairo33Component, title: 'Cairo33' },
     { path: 'app-cairo34', component: Cairo34Component, title: 'Cairo34' },
     { path: 'app-cairo35', component: Cairo35Component, title: 'Cairo35' },
+    { path: 'app-cairo36', component: Cairo36Component, title: 'Cairo36' },
+    { path: 'app-cairo37', component: Cairo37Component, title: 'Cairo37' },
+    { path: 'app-cairo38', component: Cairo38Component, title: 'Cairo38' },
     { path: 'app-qalyub1', component: Qalyub1Component, title: 'Qalyub1' },
     { path: 'app-qalyub2', component: Qalyub2Component, title: 'Qalyub2' },
     { path: 'app-qalyub3', component: Qalyub3Component, title: 'Qalyub3' },
@@ -234,6 +275,26 @@ export const routes: Routes = [
     { path: 'app-mnofya1', component: Mnofya1Component, title: 'Mnofya1' },
     { path: 'app-mnofya2', component: Mnofya2Component, title: 'Mnofya2' },
     { path: 'app-mnofya3', component: Mnofya3Component, title: 'Mnofya3' },
+    { path: 'app-sharm', component: SharmComponent, title: 'Sharm' },
+    { path: 'app-alex1', component: Alex1Component, title: 'Alex1' },
+    { path: 'app-alex2', component: Alex2Component, title: 'Alex2' },
+    { path: 'app-alex3', component: Alex3Component, title: 'Alex3' },
+    { path: 'app-alex4', component: Alex4Component, title: 'Alex4' },
+    { path: 'app-alex5', component: Alex5Component, title: 'Alex5' },
+    { path: 'app-ismailia1', component: Ismailia1Component, title: 'Ismailia1' },
+    { path: 'app-ismailia2', component: Ismailia2Component, title: 'Ismailia2' },
+    { path: 'app-ismailia3', component: Ismailia3Component, title: 'Ismailia3' },
+    { path: 'app-gharbia1', component: Gharbia1Component, title: 'Gharbia1' },
+    { path: 'app-gharbia2', component: Gharbia2Component, title: 'Gharbia2' },
+    { path: 'app-sharqia1', component: Sharqia1Component, title: 'Sharqia1' },
+    { path: 'app-sharqia2', component: Sharqia2Component, title: 'Sharqia2' },
+    { path: 'app-aswan1', component: Aswan1Component, title: 'Aswan1' },
+    { path: 'app-aswan2', component: Aswan2Component, title: 'Aswan2' },
+    { path: 'app-matrouh1', component: Matrouh1Component, title: 'Matrouh1' },
+    { path: 'app-matrouh2', component: Matrouh2Component, title: 'Matrouh2' },
+    { path: 'app-matrouh3', component: Matrouh3Component, title: 'Matrouh3' },
+    { path: 'app-matrouh4', component: Matrouh4Component, title: 'Matrouh4' },
+    { path: 'app-north', component: NorthComponent, title: 'North' },
 
     // Route واحد للجاز وبـ stationId
     { path: 'gaz/:stationId', component: GazComponent, title: 'gaz' },
