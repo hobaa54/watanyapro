@@ -5,7 +5,8 @@
         <h1 class="station-name fw-bold text-white display-5 ">محافظة القاهره</h1>
     </div>
 </section>
-<div class="container-fluid py-5" dir="rtl" @fadeUp>
+<div class="container-fluid py-5" dir="rtl" >
+
     <div class="div d-flex justify-content-between align-items-center">
         <button
             class="btn btn-outline-success bi-arrow-bar-left d-flex flex-row-reverse justify-content-center align-items-center fw-bold"
@@ -15,13 +16,15 @@
             routerLink="/home">الصفحة الرئيسية</button>
     </div>
 
-    <h2 class="text-center mb-4 bi-bookmark fs-1 fw-bold gradient-text-head " data-aos="fade-down">محطات محاقظة القاهره
+    <h2 class="text-center mb-4 bi-bookmark fs-1 fw-bold gradient-text-head " data-aos="fade-down">محطات محافظة القاهره
         <span class="bi-bookmark"></span>
     </h2>
+    <span class="badge bg-success fw-bold my-5">عدد المحطات: {{ stationCount() }} </span>
 
     <div class="row g-4">
+
         <!-- كارد: الرحاب -->
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo1">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -36,7 +39,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo2">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -51,7 +54,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo3">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -66,7 +69,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo4">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -81,7 +84,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo5">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -96,7 +99,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo21">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -111,7 +114,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo6">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -126,7 +129,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo7">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -141,7 +144,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo8">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -156,7 +159,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo9">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -171,7 +174,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo10">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -186,7 +189,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo11">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -201,7 +204,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo12">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -216,7 +219,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo13">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -231,7 +234,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo14">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -246,7 +249,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo15">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -262,7 +265,7 @@
             </a>
         </div>
 
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo16">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -277,7 +280,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo22">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -293,7 +296,7 @@
             </a>
         </div>
 
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo17">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -308,7 +311,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo18">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -324,7 +327,7 @@
             </a>
         </div>
 
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo19">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -339,7 +342,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo20">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -354,7 +357,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo23">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -369,7 +372,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo24">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -386,7 +389,7 @@
         </div>
 
 
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo25">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -402,7 +405,7 @@
             </a>
         </div>
 
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo26">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -417,7 +420,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo27">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -432,7 +435,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo28">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -447,7 +450,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo29">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -462,7 +465,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo30">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -477,7 +480,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo31">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -492,7 +495,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo32">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -507,7 +510,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo33">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -522,7 +525,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo34">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -537,7 +540,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo35">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -552,7 +555,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo36">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -567,7 +570,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo37">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>
@@ -582,7 +585,7 @@
                 </div>
             </a>
         </div>
-        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-md-4" #stationCard data-aos="zoom-in" data-aos-delay="100">
             <a routerLink="/app-cairo38">
                 <div class="card station-card p-3 text-center">
                     <div class="icon-circle"><i class="bi-star-fill text-warning fs-1"></i></div>

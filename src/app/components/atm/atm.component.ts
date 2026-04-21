@@ -7,7 +7,7 @@ type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest'
   | 'Sadat1' | 'Obour1' | 'October2' | 'October3' | 'October4' | 'October5' | 'October6' | 'Zayed1' | 'Zayed2' | 'Alamin3'
   | 'Cairo1' | 'Cairo2' | 'Cairo3' | 'Cairo4' | 'Cairo5' | 'Cairo6' | 'Cairo7' | 'Cairo8' | 'Cairo9' | 'Cairo10'
   | 'Cairo11' | 'Cairo12' |'Cairo14' | 'Cairo17' |'Cairo20' | 'Cairo30' | 'Cairo34' | 'Qalyub1' | 'Qalyub2' | 'Qalyub3'
-  | 'Sharm' | 'Alex1' | 'Alex2' | 'Alex3' | 'Alex4' | 'Alex5' | 'North'
+  | 'Sharm' | 'Alex1' | 'Alex2' | 'Alex3' | 'Alex4' | 'Alex5' | 'North' | 'GizaC3' | 'GizaC2'
   ;
 
 @Component({
@@ -79,6 +79,8 @@ export class AtmComponent {
     if (id === 'Alex4') return '/app-alex4'; // عدّلها حسب route بتاع Sharm
     if (id === 'Alex5') return '/app-alex5'; // عدّلها حسب route بتاع Sharm
     if (id === 'North') return '/app-north'; // عدّلها حسب route بتاع North
+    if (id === 'GizaC3') return '/app-giza-c3'; // عدّلها حسب route بتاع GizaC3
+    if (id === 'GizaC2') return '/app-giza-c2'; // عدّلها حسب route بتاع GizaC2
     return '/details';
   });
   constructor(private route: ActivatedRoute) {
@@ -91,7 +93,7 @@ export class AtmComponent {
         || id === 'Cairo7' || id === 'Cairo8' || id === 'Cairo9' || id === 'Cairo10' 
         || id === 'Cairo11' || id === 'Cairo12' || id === 'Cairo14' || id === 'Cairo17' || id === 'Cairo20' || id === 'Cairo30'
         || id==='Cairo34' || id === 'Qalyub1' || id === 'Qalyub2' || id === 'Qalyub3' || id === 'Sharm' || id === 'Alex1' || id === 'Alex2' || id === 'Alex3' 
-        || id === 'Alex4' || id === 'Alex5' || id === 'North'
+        || id === 'Alex4' || id === 'Alex5' || id === 'North' || id === 'GizaC3' || id === 'GizaC2'
 
 
         

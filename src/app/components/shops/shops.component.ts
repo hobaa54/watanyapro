@@ -6,7 +6,7 @@ type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest'
   'Obour2' | 'October2' | 'October1' | 'October6' | 'October7' | 'Zayed2' | 'Zayed1' | 'Shorouk1'
   | 'Giza2' | 'Giza3' | 'Cairo2' | 'Cairo3' | 'Cairo4' | 'Cairo5' | 'Cairo6' | 'Cairo11'
   | 'Cairo17' | 'Cairo21' | 'Cairo22' | 'Cairo33' | 'Cairo34' | 'Cairo35' | 'Qalyub3' | 'Qalyub4' | 'Qalyub5' | 'Qalyub6' | 'Qalyub7'
-  | 'Mnofya1' | 'Ismailia3' |'North';
+  | 'Mnofya1' | 'Ismailia3' |'North' | 'dakahlia1' |'Kafr1' | 'GizaC2' | 'GizaC3';
 @Component({
   selector: 'app-shops',
   standalone: true,
@@ -62,6 +62,10 @@ export class ShopsComponent {
     if (id === 'Mnofya1') return '/app-mnofya1';    // عدّلها حسب route بتاع Mnofya1
     if (id === 'Ismailia3') return '/app-ismailia3';    // عدّلها حسب route بتاع Mnofya1
     if (id === 'North') return '/app-north';    // عدّلها حسب route بتاع North
+    if (id === 'dakahlia1') return '/app-dakahlia1';    // عدّلها حسب route بتاع Dakahlia1
+    if (id === 'Kafr1') return '/app-kafr1';    // عدّلها حسب route بتاع Dakahlia1
+    if (id === 'GizaC2') return '/app-giza-c2';    // عدّلها حسب route بتاع GizaC2
+    if (id === 'GizaC3') return '/app-giza-c3';    // عدّلها حسب route بتاع GizaC3
     return '/details';
   });
 
@@ -75,7 +79,8 @@ export class ShopsComponent {
         || id === 'Giza2' || id === 'Giza3' || id === 'Cairo2' || id === 'Cairo3' || id === 'Cairo4'
         || id === 'Cairo5' || id === 'Cairo6' || id === 'Cairo11' || id === 'Cairo17' || id === 'Cairo21' || id === 'Cairo22'
         || id === 'Cairo33' || id === 'Cairo34' || id === 'Cairo35' || id === 'Qalyub3' || id === 'Qalyub4' || id === 'Qalyub5' || id === 'Qalyub6' || id === 'Qalyub7'
-        || id === 'Mnofya1' || id === 'Ismailia3' || id === 'North'
+        || id === 'Mnofya1' || id === 'Ismailia3' || id === 'North' || id === 'dakahlia1' || id === 'Kafr1' || id === 'GizaC2' || id === 'GizaC3'
+        
       ) this.stationId.set(id);
     });
   }

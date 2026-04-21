@@ -9,8 +9,8 @@ declare var L: any;
   templateUrl: './air-hosbital.component.html',
   styleUrl: './air-hosbital.component.css'
 })
-export class AirHosbitalComponent  implements AfterViewInit{
- services2 = SERVICES3;
+export class AirHosbitalComponent implements AfterViewInit {
+  services2 = SERVICES3;
 
   openGoogleMaps() {
     const lat = 30.006222;

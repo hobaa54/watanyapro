@@ -149,6 +149,21 @@ import { Cairo36Component } from './components/cairo36/cairo36.component';
 import { NorthDetailsComponent } from './components/north-details/north-details.component';
 import { Matrouh4Component } from './components/matrouh4/matrouh4.component';
 import { NorthComponent } from './components/north/north.component';
+import { Asuot1Component } from './components/asuot1/asuot1.component';
+import { AsuotDetailsComponent } from './components/asuot-details/asuot-details.component';
+import { AsuotNewDetailsComponent } from './components/asuot-new-details/asuot-new-details.component';
+import { Asuot2Component } from './components/asuot2/asuot2.component';
+import { DakahliaDetailsComponent } from './components/dakahlia-details/dakahlia-details.component';
+import { Dakahlia1Component } from './components/dakahlia1/dakahlia1.component';
+import { KafrDetailsComponent } from './components/kafr-details/kafr-details.component';
+import { Kafr1Component } from './components/kafr1/kafr1.component';
+import { BeheraDetailsComponent } from './components/behera-details/behera-details.component';
+import { Behera1Component } from './components/behera1/behera1.component';
+import { PortsaidDetailsComponent } from './components/portsaid-details/portsaid-details.component';
+import { Portsaid1Component } from './components/portsaid1/portsaid1.component';
+import { SohagDetailsComponent } from './components/sohag-details/sohag-details.component';
+import { Sohag1Component } from './components/sohag1/sohag1.component';
+import { Mnofya4Component } from './components/mnofya4/mnofya4.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -178,6 +193,13 @@ export const routes: Routes = [
     { path: 'app-aswan-details', component: AswanDetailsComponent, title: 'AswanDetails' },
     { path: 'app-matrouh-details', component: MatrouhDetailsComponent, title: 'MatrouhDetails' },
     { path: 'app-north-details', component: NorthDetailsComponent, title: 'NorthDetails' },
+    { path: 'app-asuot-details', component: AsuotDetailsComponent, title: 'AsuotDetails' },
+    { path: 'app-asuot-new-details', component: AsuotNewDetailsComponent, title: 'AsuotNewDetails' },
+    { path: 'app-dakahlia-details', component: DakahliaDetailsComponent, title: 'DakahliaDetails' },
+    { path: 'app-kafr-details', component: KafrDetailsComponent, title: 'KafrDetails' },
+    { path: 'app-behera-details', component: BeheraDetailsComponent, title: 'BeheraDetails' },
+    { path: 'app-portsaid-details', component: PortsaidDetailsComponent, title: 'PortsaidDetails' },
+    { path: 'app-sohag-details', component: SohagDetailsComponent, title: 'SohagDetails' },
 
     //!Stations
 
@@ -275,6 +297,7 @@ export const routes: Routes = [
     { path: 'app-mnofya1', component: Mnofya1Component, title: 'Mnofya1' },
     { path: 'app-mnofya2', component: Mnofya2Component, title: 'Mnofya2' },
     { path: 'app-mnofya3', component: Mnofya3Component, title: 'Mnofya3' },
+    { path: 'app-mnofya4', component: Mnofya4Component, title: 'Mnofya4' },
     { path: 'app-sharm', component: SharmComponent, title: 'Sharm' },
     { path: 'app-alex1', component: Alex1Component, title: 'Alex1' },
     { path: 'app-alex2', component: Alex2Component, title: 'Alex2' },
@@ -295,6 +318,13 @@ export const routes: Routes = [
     { path: 'app-matrouh3', component: Matrouh3Component, title: 'Matrouh3' },
     { path: 'app-matrouh4', component: Matrouh4Component, title: 'Matrouh4' },
     { path: 'app-north', component: NorthComponent, title: 'North' },
+    { path: 'app-asuot1', component: Asuot1Component, title: 'Asuot1' },
+    { path: 'app-asuot2', component: Asuot2Component, title: 'Asuot2' },
+    { path: 'app-dakahlia1', component: Dakahlia1Component, title: 'Dakahlia1' },
+    { path: 'app-kafr1', component: Kafr1Component, title: 'Kafr1' },
+    { path: 'app-behera1', component: Behera1Component, title: 'Behera1' },
+    { path: 'app-portsaid1', component: Portsaid1Component, title: 'Portsaid1' },
+    { path: 'app-sohag1', component: Sohag1Component, title: 'Sohag1' },
 
     // Route واحد للجاز وبـ stationId
     { path: 'gaz/:stationId', component: GazComponent, title: 'gaz' },

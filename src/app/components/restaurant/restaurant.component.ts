@@ -9,7 +9,7 @@ type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest'
   | 'Torism2' | 'Cairo4' | 'Cairo5' | 'Cairo6' | 'Cairo7' | 'Cairo8' | 'Cairo9' | 'Cairo10' | 'Cairo11' | 'Cairo12'
   | 'Cairo16' | 'Cairo17' | 'Cairo18' | 'Cairo19' | 'Cairo23' | 'Cairo28' | 'Cairo29' | 'Cairo30' | 'Cairo34' | 'Cairo35'
   | 'Qalyub3' | 'Qalyub4' | 'Qalyub5' | 'Qalyub6' | 'Qalyub7' | 'Mnofya1' | 'Mnofya2' | 'Sharm' | 'Alex1' | 'Alex2' | 'Alex3' | 'Alex4' | 'Alex5'
-  | 'Ismailia1' | 'Ismailia2' | 'Ismailia3' | 'Gharbia1'|'Cairo38' | 'North';
+  | 'Ismailia1' | 'Ismailia2' | 'Ismailia3' | 'Gharbia1' | 'Cairo38' | 'North' | 'dakahlia1'|'GizaC1' | 'GizaC2' | 'GizaC3';
 
 
 @Component({
@@ -105,6 +105,10 @@ export class RestaurantComponent {
     if (id === 'Ismailia3') return '/app-ismailia3';    // عدّلها حسب route بتاع Isamilia3
     if (id === 'Gharbia1') return '/app-gharbia1';    // عدّلها حسب route بتاع Gharbia1
     if (id === 'North') return '/app-north';    // عدّلها حسب route بتاع North
+    if (id === 'dakahlia1') return '/app-dakahlia1';    // عدّلها حسب route بتاع Dakahlia1
+    if (id === 'GizaC2') return '/app-giza-c2';    // عدّلها حسب route بتاع GizaC2
+    if (id === 'GizaC3') return '/app-giza-c3';    // عدّلها حسب route بتاع GizaC3
+    if (id === 'GizaC1') return '/app-giza-c1';    // عدّلها حسب route بتاع GizaC1
 
 
     return '/details';
@@ -125,7 +129,10 @@ export class RestaurantComponent {
         || id === 'Cairo30' || id === 'Cairo34' || id === 'Cairo35' || id === 'Qalyub3' || id === 'Qalyub4' || id === 'Qalyub5' || id === 'Qalyub6' || id === 'Qalyub7'
         || id === 'Mnofya1' || id === 'Mnofya2' || id === 'Sharm' || id === 'Alex1' || id === 'Alex2' || id === 'Alex3' || id === 'Alex4' || id === 'Alex5'
         || id === 'Ismailia1' || id === 'Ismailia2' || id === 'Ismailia3' || id === 'Gharbia1' || id === 'Cairo38' || id === 'North'
+        || id === 'dakahlia1' || id === 'GizaC1' || id === 'GizaC2' || id === 'GizaC3'
+
       ) this.stationId.set(id);
+
     });
   }
 }

@@ -12,7 +12,8 @@ type StationId = 'rehab' | 'madinty' | 'tirumph' | 'tagamo35' | 'AUC' | 'forest'
   | 'Cairo18' | 'Cairo19' | 'Cairo21' | 'Cairo22' | 'Cairo23' | 'Cairo24' | 'Cairo25' | 'Cairo26' | 'Cairo27' | 'Cairo28' | 'Cairo29' | 'Cairo30' | 'Cairo31' | 'Cairo32'
   | 'Cairo34' | 'Cairo35' | 'Qalyub1' | 'Qalyub2' | 'Qalyub3' | 'Qalyub4' | 'Qalyub5' | 'Qalyub6' | 'Qalyub7' | 'Mnofya1' | 'Mnofya2'
   | 'Mnofya3' | 'Sharm' | 'Alex1' | 'Alex2' | 'Alex3' | 'Alex4' | 'Alex5' | 'Ismailia2' | 'Gharbia1' | 'Gharbia2' | 'Sharqia1' | 'Sharqia2'
-  | 'Aswan1' | 'Aswan2' | 'Matrouh1' | 'Matrouh2' | 'Matrouh3' | 'Cairo36' | 'Cairo37' | 'Cairo38' | 'North';
+  | 'Aswan1' | 'Aswan2' | 'Matrouh1' | 'Matrouh2' | 'Matrouh3' | 'Cairo36' | 'Cairo37' | 'Cairo38' | 'North' | 'Dakahlia1'
+  | 'Behera1' | 'Mnofya4' ;
 
 @Component({
   selector: 'app-market',
@@ -141,6 +142,9 @@ export class MarketComponent {
     if (id === 'Matrouh2') return '/app-matrouh2';  // عدّلها حسب route بتاع Matrouh2
     if (id === 'Matrouh3') return '/app-matrouh3';   // عدّلها حسب route بتاع Matrouh3
     if (id === 'North') return '/app-north';    // عدّلها حسب route بتاع North
+    if (id === 'Dakahlia1') return '/app-dakahlia1';  // عدّلها حسب route بتاع Dakahlia1
+    if (id === 'Behera1') return '/app-behera1';  // عدّلها حسب route بتاع Behera1
+    if (id === 'Mnofya4') return '/app-mnofya4';  // عدّلها حسب route بتاع Mnofya4
     return '/details';
   });
 
@@ -162,7 +166,7 @@ export class MarketComponent {
         || id === 'Cairo35' || id === 'Qalyub1' || id === 'Qalyub2' || id === 'Qalyub3' || id === 'Qalyub4' || id === 'Qalyub5' || id === 'Qalyub6' || id === 'Qalyub7'
         || id === 'Mnofya1' || id === 'Mnofya2' || id === 'Mnofya3' || id === 'Sharm' || id === 'Alex1' || id === 'Alex2' || id === 'Alex3' || id === 'Alex4' || id === 'Alex5'
         || id === 'Ismailia2' || id === 'Gharbia1' || id === 'Gharbia2' || id === 'Sharqia1' || id === 'Sharqia2' || id === 'Aswan1' || id === 'Aswan2'
-        || id === 'North'
+        || id === 'North' || id === 'Dakahlia1' ||id=== 'Behera1' || id === 'Mnofya4'
 
       )
         this.stationId.set(id);
